@@ -6,7 +6,180 @@
     <description>Recent content on Rockin Work</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
+    <lastBuildDate>Sat, 21 Mar 2015 18:08:34 +0900</lastBuildDate>
     <atom:link href="http://rockin.work/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>first post &amp; markdown test</title>
+      <link>http://rockin.work/post/first/</link>
+      <pubDate>Sat, 21 Mar 2015 18:08:34 +0900</pubDate>
+      
+      <guid>http://rockin.work/post/first/</guid>
+      <description>
+
+&lt;p&gt;This page is my first post on Hugo.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;markdown test&lt;/p&gt;
+
+&lt;h1 id=&#34;headers-見出し:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;Headers - 見出し&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;# h1
+## h2
+### h3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;h1:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;h1&lt;/h1&gt;
+
+&lt;h2 id=&#34;h2:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;h2&lt;/h2&gt;
+
+&lt;h3 id=&#34;h3:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;h3&lt;/h3&gt;
+
+&lt;h1 id=&#34;emphasis-強調:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;Emphasis - 強調&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;**太字**
+__太字__
+*イタリック*
+_イタリック_
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;太字&lt;/strong&gt;
+&lt;strong&gt;太字&lt;/strong&gt;
+&lt;em&gt;イタリック&lt;/em&gt;
+&lt;em&gt;イタリック&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;strikethrough-打ち消し線:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;Strikethrough - 打ち消し線&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;~~打ち消し線~~
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;del&gt;打ち消し線&lt;/del&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;lists-リスト:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;Lists - リスト&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;* A
+  * 1
+  * 2
+* B
+  * 3
+  * 4
+
+- J
+  - 1
+- K
+- L
+
+1. X
+  1. 1
+1. Y
+1. Z
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A
+
+&lt;ul&gt;
+&lt;li&gt;1&lt;/li&gt;
+&lt;li&gt;2&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;B&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;3&lt;/li&gt;
+&lt;li&gt;4&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;J&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;K&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;L&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;X&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;1&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Y&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Z&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;links-リンク:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;Links - リンク&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;[Rockin Work](http://rockin.work/)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://rockin.work/&#34;&gt;Rockin Work&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;table-テーブル:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;Table - テーブル&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;| Left align | Right align | Center align |
+|:-----------|------------:|:------------:|
+| This       |        This |     This     |
+| column     |      column |    column    |
+| will       |        will |     will     |
+| be         |          be |      be      |
+| left       |       right |    center    |
+| aligned    |     aligned |   aligned    |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Left align&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Right align&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Center align&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;This&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;This&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;This&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;column&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;column&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;column&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;will&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;will&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;will&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;be&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;be&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;be&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;left&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;right&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;center&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;aligned&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;aligned&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;aligned&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
