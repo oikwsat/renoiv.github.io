@@ -49,14 +49,14 @@
                         <div class="li-article">
                             <article>
     <header>
-        <h2><a href="http://rockin.work/post/2015-03-techbooks/">2015-Mar発売の技術書チェックリスト </a></h2>
+        <h2><a href="http://rockin.work/post/2015/03/techbooks/">2015-Mar発売の技術書チェックリスト </a></h2>
         <time class="li-article-date">Monday, March 23, 2015</time>
     </header>
     <section class="li-article-section">
         和書 ソフトウエアーデザイン 2015年 04 月号 [雑誌] 2015-03-18 特集「トラブルシューティングの極意」に惹かれて Webエンジニアの教科書 304p. 2015-03-26 0-3年目向けお勧め本候補として 技術者のための わかりやすい文書の書き方 -６つのルールと１７の書き方で劇的に変わる- 160p. 2015-03-25 ドキュメントを書く機会が増えてきているのと，ドキュメントを書いて欲しい人へのお勧め本候補として スクラム実践入門 ── 成果を生み出すアジャイルな開発プロセス (WEB+DB PRESS plus) 240p. 2015-03-18 プロジェクトマネジメントのインプットとして 品質管理が一番わかる (しくみ図解) 192p. 2015-03-04 プロジェクトマネジメントのインプットとして 作ることで学ぶ ―Makerを育てる新しい教育のメソッド 400p. 2015-03-25 組織マネジメントのインプットとして グラフデータベース ―Neo4jによるグラフデータモデルとグラフデータベース入門 236p. 2015-03-25 フロントエンドのインプットとして 洋書 Learning AngularJS: A Guide to AngularJS Development 212p. 2015-03-18 フロントエンドのインプットとして Data Visualization With Javascript 320p. 2015-03-23 フロントエンドのインプットとして 現在の興味は，主に以下2分野であることを再確認。 プロジェクト/組織マネジメント フロントエンド
     </section>
     <footer>
-        <a href='http://rockin.work/post/2015-03-techbooks/'>More</a>
+        <a href='http://rockin.work/post/2015/03/techbooks/'>More</a>
     </footer>
 </article>
 
@@ -81,14 +81,126 @@
                         <div class="li-article">
                             <article>
     <header>
-        <h2><a href="http://rockin.work/post/2015-01-techbooks/">2015-Jan発売の技術書チェックリスト </a></h2>
+        <h2><a href="http://rockin.work/post/2015/01/resolved-cantaccess-https-localhost/">https://localhost/ にアクセス出来ない (解決) </a></h2>
+        <time class="li-article-date">Saturday, January 31, 2015</time>
+    </header>
+    <section class="li-article-section">
+        http://localhost/ には接続できるが，httpsには接続できない問題が発生。\n調査方法からメモしておく。 \n\n443ポートに接続できるかどうか\nsudo lsof -i tcp:80 -i tcp:443 | grep LISTEN \n\nファイアウォールが動いていないか\nシステム環境設定 &gt; セキュリティとプライバシー &gt; ファイアウォールを確認 \nhttpd.conf の設定が正しいか \nhttpd-ssl.conf の設定が正しいか\n$ sudo /usr/sbin/httpd -k start -e Debug -E /dev/stdout \n\nYosemiteでapache2のバージョンが上がったことで，今までの設定ファイルでは動かなかった模様。\nモジュールの読込が足りなかったことと，mutexの設定をコメントアウトして解決。 \n\n変更したファイル\n* /private/etc/apache2/httpd.conf\n* /private/etc/apache2/extra/httpd-ssl.conf "} publish: 2015-01-031 tags: apache2, yosemite title: https://localhost/ にアクセス出来ない (解決) -- http://localhost/ には接続できるが，https://localhost/ には接続できない問題が発生。 解決できたので調査方法からメモしておく。 443ポートに接続できるかどうか sudo lsof -i tcp:80 -i tcp:443 | grep LISTEN ファイアウォールが動いていないか システム環境設定 &gt; セキュリティとプライバシー &gt; ファイアウォールを確認 httpd.conf の設定が正しいか httpd-ssl.conf の設定が正しいか $ sudo /usr/sbin/httpd
+    </section>
+    <footer>
+        <a href='http://rockin.work/post/2015/01/resolved-cantaccess-https-localhost/'>More</a>
+    </footer>
+</article>
+
+                        </div>
+                    
+                        <div class="li-article">
+                            <article>
+    <header>
+        <h2><a href="http://rockin.work/post/2015/01/techbooks/">2015-Jan発売の技術書チェックリスト </a></h2>
         <time class="li-article-date">Saturday, January 31, 2015</time>
     </header>
     <section class="li-article-section">
         デザイニング・マルチデバイス・エクスペリエンス ―デバイスの枠を超えるUXデザインの探求 388p. 2014-12-25 ディレクションのインプットとして Lean Analytics ―スタートアップのためのデータ解析と活用法 (THE LEAN SERIES) 400p. 2015-01-24 ビジネスインプットとして Node.js Design Patterns 454p. 2014-12-30 洋書。 node.jsのナレッジとして Full Stack JavaScript Development with MEAN (English Edition) 324p. 2015-1-11 洋書。node.js開発のナレッジとして
     </section>
     <footer>
-        <a href='http://rockin.work/post/2015-01-techbooks/'>More</a>
+        <a href='http://rockin.work/post/2015/01/techbooks/'>More</a>
+    </footer>
+</article>
+
+                        </div>
+                    
+                        <div class="li-article">
+                            <article>
+    <header>
+        <h2><a href="http://rockin.work/post/2015/01/resolved-veryslowlyinputcell-mac-excel/">Mac EXCELのセル入力が異常に遅い (解決) </a></h2>
+        <time class="li-article-date">Thursday, January 22, 2015</time>
+    </header>
+    <section class="li-article-section">
+        環境設定ファイルの削除\n\nFinder起動し，Shift＋⌘＋Gで次を入力し移動 ~/Library/Preferences/\n以下2ファイルを削除\ncom.microsoft.Excel.plist\ncom.microsoft.office.plist \n\ncacheの削除\n\nFinder起動し，Shift＋⌘＋Gで次を入力し移動 ~/Library/Caches/\n”Microsoft”フォルダを削除\n\nアプリケーションを全て終了し再起動してください。\nExcel2011で日本語入力のスピードが極端に遅い | Apple サポートコミュニティ "} publish: 2015-01-022 tags: excel mac title: undefined -- Mac Excelのイライラがようやく解消した。これで捗る 環境設定ファイルの削除 Finder起動し，Shift＋⌘＋Gで次を入力し移動 ~/Library/Preferences/ 以下2ファイルを削除 com.microsoft.Excel.plist com.microsoft.office.plist cacheの削除 Finder起動し，Shift＋⌘＋Gで次を入力し移動 ~/Library/Caches/ ”Microsoft”フォルダを削除 アプリケーションを全て終了し再起動してください。 Excel2011で日本語入力のスピードが極端に遅い | Apple サポートコミュニティ
+    </section>
+    <footer>
+        <a href='http://rockin.work/post/2015/01/resolved-veryslowlyinputcell-mac-excel/'>More</a>
+    </footer>
+</article>
+
+                        </div>
+                    
+                        <div class="li-article">
+                            <article>
+    <header>
+        <h2><a href="http://rockin.work/post/2015/01/ship-log/">プロジェクト日誌 雑感 </a></h2>
+        <time class="li-article-date">Sunday, January 11, 2015</time>
+    </header>
+    <section class="li-article-section">
+        習慣化の力&#160;: タイム・コンサルタントの日誌から"} publish: 2015-01-011 tags: title: undefined -- 習慣化の力&#160;: タイム・コンサルタントの日誌から 船の船長は、航海日誌をつけている。Ship Log Bookという。 わたしは、航海日誌もちゃんとつけられないような、だらしない船長の船には、乗りたくない。 同じように、わたしはプロジェクト日誌をつけないプロマネの仕事は、あまり手伝いたくない。 プロジェクトは航海と同じで、最初に航路を決めても、とりまく周辺環境は変わりやすいし、 人の出入りはあるし、思いもよらぬ出来事や故障もある。 なぜ、あのとき、そういう決断をしたのか。何が理由で、航路に遅れたのか。 すべてにさかのぼってトレーサビリティを確保しておくのは、とても大切なことだ。 なるほどなと非常に共感できたので，習慣化するためのアイデアを検討してみる。 習慣化するためにスモールスタートで考えて， - すべてのプロジェクトではなく，一番規模が大きいプロジェクトだけとする - 日誌を付けるタイミングは，問題が発生した時，判針に悩んだ時・判断を決定した時とする - 記述内容は，問題・方針・コスト・進捗・リスクなどとする - ツールは，Googleドキュメントととし，1プロジェクト1ファイルとする なにかしっくり来ないので，習慣化するのは難しそう。。 今は，色々な場所に細切れには書いているので，何もやっていないわけではなく， - 地ケット管理 - リスク管理 - コスト管理 - 進捗管理 は，それぞれのツールで行っている。 ただ，トレーサビリティが低いというのは事実なので，自分なりのマネジメント方法を確立していきたい。
+    </section>
+    <footer>
+        <a href='http://rockin.work/post/2015/01/ship-log/'>More</a>
+    </footer>
+</article>
+
+                        </div>
+                    
+                        <div class="li-article">
+                            <article>
+    <header>
+        <h2><a href="http://rockin.work/post/2012/08/memoized-recursion/">Memoized Recursion: プログラマの区分 </a></h2>
+        <time class="li-article-date">Friday, August 3, 2012</time>
+    </header>
+    <section class="li-article-section">
+        http://fumieval.tumblr.com/post/28324791101 fumieval: 世の中には、24種類のプログラマがある。ソルジャー、マーシナリー、ガーディアン、ナイト、レンジャー、ドラグーン、サモナー、グラディエーター、ブラックスミス、エクソシスト、サイエンティスト、エンチャンター、ウィザード、アルケミスト、エレメンタリスト(←New!!)、セイント、ソーサラー、ウォーロック、ネクロマンサー、シャーマン、ハーミット、バーサーカー、ソーマタージ、ノービスだ。 ソルジャー 技術力は並みの、平凡なプログラマ。 得意な言語: C、Java、C++、Objective…
+    </section>
+    <footer>
+        <a href='http://rockin.work/post/2012/08/memoized-recursion/'>More</a>
+    </footer>
+</article>
+
+                        </div>
+                    
+                        <div class="li-article">
+                            <article>
+    <header>
+        <h2><a href="http://rockin.work/post/2012/07/otosan/">お父さん 僕が守るけん／片山君 最優秀賞-マイタウン広島 </a></h2>
+        <time class="li-article-date">Wednesday, July 4, 2012</time>
+    </header>
+    <section class="li-article-section">
+        おとうさんがびょうきでなくなってから三年、ぼくは小学一年生になりました。 \n\n おとうさんにほうこくがあります。きっとみてくれているとおもうけど、ぼくはおとうさんのおべんとうばこをかりました。 \n\n ぼくは、きのうのことをおもいだすたびにむねがドキドキします。 \n\n ぼくのおべんとうばことはしがあたって、すてきなおとがきこえました。きのうのおべんとうは、とくべつでした。まだ十じだというのに、おべんとうのことばかりかんがえてしまいました。 \n\n なぜきのうのおべんとうがとくべつかというと、それはおとうさんのおべんとうばこをはじめてつかったからです。おとうさんがいなくなって、ぼくはとてもさみしくてかなしかったです。 \n\n おとうさんのおしごとは、てんぷらやさんでした。おとうさんのあげたてんぷらはせかい一おいしかったです。ぼくがたべにいくと、いつもこっそり、ぼくだけにぼくの大すきなエビのてんぷらをたくさんあげてくれました。そんなとき、ぼくはなんだかぼくだけがとくべつなきがしてとてもうれしかったです。あれからたくさんたべて空手もがんばっているのでいままでつかっていたおべんとうばこではたりなくなってきました。 \n\n 「大きいおべんとうにしてほしい」 \n\n とぼくがいうと、おかあさんがとだなのおくからおとうさんがいつもしごとのときにもっていっていたおべんとうばこを出してきてくれました。 \n\n 「ちょっとゆうくんには、大きすぎるけどたべれるかな」 \n\n といいました。でもぼくはおとうさんのおべんとうばこをつかわせてもらうことになったのです。 \n\n そしてあさからまちにまったおべんとうのじかん。ぼくはぜんぶたべることができました。たべたらなんだかおとうさんみたいに、つよくてやさしい人になれたきがして、おとうさんにあいたくなりました。いまおもいだしてもドキドキするくらいうれしくておいしいとくべつなおべんとうでした。 \n\n もし、かみさまにおねがいができるなら、もういちどおとうさんと、おかあさんと、ぼくといもうととみんなでくらしたいです。でもおとうさんは、いつも空の上からぼくたちをみまもってくれています。 \n\n おとうさんがいなくて、さみしいけれど、ぼくがかぞくの中で一人の男の子だから、おとうさんのかわりに、おかあさんといもうとをまもっていきます。おとうさんのおべんとうばこでしっかりごはんをたべて、もっともっとつよくて、やさしい男の子になります。 \n\n おとうさん、おべんとうばこをかしてくれてありがとうございます。 ","source":"asahi.com:お父さん 僕が守るけん／片山君 最優秀賞-マイタウン広島 (via clione) \n2011-02-09 \n(via s184) ","reblog":{"tree_html":"","comment":"asahi.com:&#12362;&#29238;&#12373;&#12435; &#20693;&#12364;&#23432;&#12427;&#12369;&#12435;&#65295;&#29255;&#23665;&#21531; &#26368;&#20778;&#31168;&#36062;-&#12510;&#12452;&#12479;&#12454;&#12531;&#24195;&#23798; (via clione) \n2011-02-09 \n(via s184) ","trail":[]}} publish: 2012-07-04 tags: title: undefined -- おとうさんがびょうきでなくなってから三年、ぼくは小学一年生になりました。 おとうさんにほうこくがあります。 きっとみてくれているとおもうけど、ぼくはおとうさんのおべんとうばこをかりました。 ぼくは、きのうのことをおもいだすたびにむねがドキドキします。 ぼくのおべんとうばことはしがあたって、すてきなおとがきこえました。 きのうのおべんとうは、とくべつでした。 まだ十じだというのに、おべんとうのことばかりかんがえてしまいました。 なぜきのうのおべんとうがとくべつかというと、それはおとうさんのおべんとうばこをはじめてつかったからです。 おとうさんがいなくなって、ぼくはとてもさみしくてかなしかったです。 おとうさんのおしごとは、てんぷらやさんでした。 おとうさんのあげたてんぷらはせかい一おいしかったです。 ぼくがたべにいくと、いつもこっそり、ぼくだけにぼくの大すきなエビのてんぷらをたくさんあげてくれました。 そんなとき、ぼくはなんだかぼくだけがとくべつなきがしてとてもうれしかったです。 あれからたくさんたべて空手もがんばっているのでいままでつかっていたおべんとうばこではたりなくなってきました。 「大きいおべんとうにしてほしい」 とぼくがいうと、おかあさんがとだなのおくからおとうさんがいつもしごとのときにもっていっていたおべんとうばこを出してきてくれました。 「ちょっとゆうくんには、大きすぎるけどたべれるかな」 といいました。でもぼくはおとうさんのおべんとうばこをつかわせてもらうことになったのです。 そしてあさからまちにまったおべんとうのじかん。ぼくはぜんぶたべることができました。 たべたらなんだかおとうさんみたいに、つよくてやさしい人になれたきがして、おとうさんにあいたくなりました。
+    </section>
+    <footer>
+        <a href='http://rockin.work/post/2012/07/otosan/'>More</a>
+    </footer>
+</article>
+
+                        </div>
+                    
+                        <div class="li-article">
+                            <article>
+    <header>
+        <h2><a href="http://rockin.work/post/2014/06/keynote-azusa/"> </a></h2>
+        <time class="li-article-date">Monday, January 1, 0001</time>
+    </header>
+    <section class="li-article-section">
+        sanographix-memo: \n\n\nいい感じのスライド、作るのむずいので、大体いい感じになるKeynoteテンプレート作った。ここからダウンロードできる。 https://github.com/sanographix/azusa-keynote\n解説 サンプルも兼ねた解説スライド作った。 だいたいスライドに書いたけど要約すると下記のようなことを考えた。 前提 スライド作るの難しい\n色とか難しい\nかっこよくしたい\nAzusaっていうのを作った Azusaは、大体いい感じになるKeynoteテンプレートです Azusaの特徴 大体いい感じになるカラースキーム\n&#8230;\n","reblog":{"tree_html":"sanographix-memo: \nいい感じのスライド、作るのむずいので、大体いい感じになるKeynoteテンプレート作った。ここからダウンロードできる。 https://github.com/sanographix/azusa-keynote\n解説 サンプルも兼ねた解説スライド作った。 だいたいスライドに書いたけど要約すると下記のようなことを考えた。 前提 スライド作るの難しい\n色とか難しい\nかっこよくしたい\nAzusaっていうのを作った Azusaは、大体いい感じになるKeynoteテンプレートです Azusaの特徴 大体いい感じになるカラースキーム\n…\n","comment":"","trail":[{"blog":{"name":"sanographix-memo","theme":{"avatar_shape":"circle","background_color":"#FFFFFF","body_font":"Helvetica Neue","header_bounds":0,"header_image":"http://assets.tumblr.com/images/default_header/optica_pattern_02.png?_v=b976ee00195b1b7806c94ae285ca46a7","header_image_focused":"http://assets.tumblr.com/images/default_header/optica_pattern_02.png?_v=b976ee00195b1b7806c94ae285ca46a7","header_image_scaled":"http://assets.tumblr.com/images/default_header/optica_pattern_02.png?_v=b976ee00195b1b7806c94ae285ca46a7","header_stretch":true,"link_color":"#f75d6e","show_avatar":true,"show_description":true,"show_header_image":false,"show_title":true,"title_color":"#444444","title_font":"Helvetica Neue","title_font_weight":"bold"}},"post":{"id":"82160791768"},"comment":"いい感じのスライド、作るのむずいので、大体いい感じになるKeynoteテンプレート作った。ここからダウンロードできる。 https://github.com/sanographix/azusa-keynote\n解説 サンプルも兼ねた解説スライド作った。 だいたいスライドに書いたけど要約すると下記のようなことを考えた。 前提 スライド作るの難しい\n色とか難しい\nかっこよくしたい\nAzusaっていうのを作った Azusaは、大体いい感じになるKeynoteテンプレートです Azusaの特徴 大体いい感じになるカラースキーム\n…\n"}]}} publish: 2014-06-026 tags: title: 大体いい感じになるKeynoteテンプレート「Azusa」作った -- 大体いい感じになるKeynoteテンプレート「Azusa」作った http://memo.sanographix.net/post/82160791768 sanographix-memo: いい感じのスライド、作るのむずいので、大体いい感じになるKeynoteテンプレート作った。ここからダウンロードできる。 https://github.com/sanographix/azusa-keynote 解説 サンプルも兼ねた解説スライド作った。 だいたいスライドに書いたけど要約すると下記のようなことを考えた。 前提 スライド作るの難しい 色とか難しい かっこよくしたい Azusaっていうのを作った Azusaは、大体いい感じになるKeynoteテンプレートです Azusaの特徴 大体いい感じになるカラースキーム …
+    </section>
+    <footer>
+        <a href='http://rockin.work/post/2014/06/keynote-azusa/'>More</a>
+    </footer>
+</article>
+
+                        </div>
+                    
+                        <div class="li-article">
+                            <article>
+    <header>
+        <h2><a href="http://rockin.work/post/2014/07/are-files-uploaded-to-hipchat-secure-private/"> </a></h2>
+        <time class="li-article-date">Monday, January 1, 0001</time>
+    </header>
+    <section class="li-article-section">
+        HipChatのfile upload先はS3URLはランダムで生成認証はなしこの仕様はちょっと…。デフォルト認証ありにしてほしい"} publish: 2014-07-011 tags: title: Are files uploaded to HipChat secure/private? – Help Center -- Are files uploaded to HipChat secure/private? – Help Center http://help.hipchat.com/knowledgebase/articles/64477-are-files-uploaded-to-hipchat-secure-private- HipChatのfile upload先はS3 URLはランダムで生成 認証はなし この仕様はちょっと…。デフォルト認証ありにしてほしい
+    </section>
+    <footer>
+        <a href='http://rockin.work/post/2014/07/are-files-uploaded-to-hipchat-secure-private/'>More</a>
     </footer>
 </article>
 

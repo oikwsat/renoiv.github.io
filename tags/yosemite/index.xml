@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yosemite on Rockin Work</title>
+    <link>http://rockin.work/tags/yosemite/</link>
+    <description>Recent content in Yosemite on Rockin Work</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 31 Jan 2015 16:18:00 +0900</lastBuildDate>
+    <atom:link href="http://rockin.work/tags/yosemite/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>https://localhost/ にアクセス出来ない (解決)</title>
+      <link>http://rockin.work/post/2015/01/resolved-cantaccess-https-localhost/</link>
+      <pubDate>Sat, 31 Jan 2015 16:18:00 +0900</pubDate>
+      
+      <guid>http://rockin.work/post/2015/01/resolved-cantaccess-https-localhost/</guid>
+      <description>&lt;!--
+id: 109653526371
+link: http://renoiv.tumblr.com/post/109653526371/https-localhost
+slug: https-localhost
+date: Sat Jan 31 2015 16:18:00 GMT+0900 (JST)
+raw: {&#34;blog_name&#34;:&#34;renoiv&#34;,&#34;id&#34;:109653526371,&#34;post_url&#34;:&#34;http://renoiv.tumblr.com/post/109653526371/https-localhost&#34;,&#34;slug&#34;:&#34;https-localhost&#34;,&#34;type&#34;:&#34;text&#34;,&#34;date&#34;:&#34;2015-01-31 07:18:00 GMT&#34;,&#34;timestamp&#34;:1422688680,&#34;state&#34;:&#34;published&#34;,&#34;format&#34;:&#34;markdown&#34;,&#34;reblog_key&#34;:&#34;FIyEyAe1&#34;,&#34;tags&#34;:[&#34;apache2&#34;,&#34;yosemite&#34;],&#34;short_url&#34;:&#34;http://tmblr.co/Z6KHMy1c7t0TZ&#34;,&#34;highlighted&#34;:[],&#34;note_count&#34;:0,&#34;title&#34;:&#34;https://localhost/ にアクセス出来ない (解決)&#34;,&#34;body&#34;:&#34;&lt;p&gt;http://localhost/ には接続できるが，httpsには接続できない問題が発生。\n調査方法からメモしておく。&lt;/p&gt;\n\n&lt;ul&gt;&lt;li&gt;443ポートに接続できるかどうか&lt;/li&gt;\n&lt;/ul&gt;&lt;p&gt;&lt;code&gt;sudo lsof -i tcp:80 -i tcp:443  | grep LISTEN&lt;/code&gt;&lt;/p&gt;\n\n&lt;ul&gt;&lt;li&gt;&lt;p&gt;ファイアウォールが動いていないか\nシステム環境設定 &amp;gt; セキュリティとプライバシー &amp;gt; ファイアウォールを確認&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;httpd.conf の設定が正しいか&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;httpd-ssl.conf の設定が正しいか&lt;/li&gt;\n&lt;/ul&gt;&lt;p&gt;&lt;code&gt;$ sudo /usr/sbin/httpd -k start -e Debug -E /dev/stdout&lt;/code&gt;&lt;/p&gt;\n\n&lt;p&gt;Yosemiteでapache2のバージョンが上がったことで，今までの設定ファイルでは動かなかった模様。\nモジュールの読込が足りなかったことと，mutexの設定をコメントアウトして解決。&lt;/p&gt;\n\n&lt;p&gt;変更したファイル\n* /private/etc/apache2/httpd.conf\n* /private/etc/apache2/extra/httpd-ssl.conf&lt;/p&gt;&#34;}
+publish: 2015-01-031
+tags: apache2, yosemite
+title: https://localhost/ にアクセス出来ない (解決)
+--&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://localhost/&#34;&gt;http://localhost/&lt;/a&gt; には接続できるが，&lt;a href=&#34;https://localhost/&#34;&gt;https://localhost/&lt;/a&gt; には接続できない問題が発生。
+解決できたので調査方法からメモしておく。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;443ポートに接続できるかどうか&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;sudo lsof -i tcp:80 -i tcp:443  | grep LISTEN&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;ファイアウォールが動いていないか システム環境設定 &amp;gt;
+セキュリティとプライバシー &amp;gt; ファイアウォールを確認&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;httpd.conf の設定が正しいか&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;httpd-ssl.conf の設定が正しいか&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;$ sudo /usr/sbin/httpd -k start -e Debug -E /dev/stdout&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Yosemiteでapache2のバージョンが上がったことで，今までの設定ファイルでは動かなかった模様。
+モジュールの読込が足りなかったことと，mutexの設定をコメントアウトして解決。&lt;/p&gt;
+
+&lt;p&gt;変更したファイル * /private/etc/apache2/httpd.conf *
+/private/etc/apache2/extra/httpd-ssl.conf&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

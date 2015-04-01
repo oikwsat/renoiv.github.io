@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reblog on Rockin Work</title>
+    <link>http://rockin.work/categories/reblog/</link>
+    <description>Recent content in Reblog on Rockin Work</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 11 Jan 2015 11:54:21 +0900</lastBuildDate>
+    <atom:link href="http://rockin.work/categories/reblog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>プロジェクト日誌 雑感</title>
+      <link>http://rockin.work/post/2015/01/ship-log/</link>
+      <pubDate>Sun, 11 Jan 2015 11:54:21 +0900</pubDate>
+      
+      <guid>http://rockin.work/post/2015/01/ship-log/</guid>
+      <description>&lt;!--
+id: 107749359986
+link: http://renoiv.tumblr.com/post/107749359986/ship-log
+slug: ship-log
+date: Sun Jan 11 2015 11:54:21 GMT+0900 (JST)
+raw: {&#34;blog_name&#34;:&#34;renoiv&#34;,&#34;id&#34;:107749359986,&#34;post_url&#34;:&#34;http://renoiv.tumblr.com/post/107749359986/ship-log&#34;,&#34;slug&#34;:&#34;ship-log&#34;,&#34;type&#34;:&#34;quote&#34;,&#34;date&#34;:&#34;2015-01-11 02:54:21 GMT&#34;,&#34;timestamp&#34;:1420944861,&#34;state&#34;:&#34;published&#34;,&#34;format&#34;:&#34;markdown&#34;,&#34;reblog_key&#34;:&#34;WeDtGpnu&#34;,&#34;tags&#34;:[],&#34;short_url&#34;:&#34;http://tmblr.co/Z6KHMy1aMNC5o&#34;,&#34;highlighted&#34;:[],&#34;bookmarklet&#34;:true,&#34;note_count&#34;:0,&#34;source_url&#34;:&#34;http://brevis.exblog.jp/22703158/&#34;,&#34;source_title&#34;:&#34;brevis.exblog.jp&#34;,&#34;text&#34;:&#34;船の船長は、航海日誌をつけている。Ship Log Bookという。わたしは、航海日誌もちゃんとつけられないような、だらしない船長の船には、乗りたくない。同じように、わたしはプロジェクト日誌をつけないプロマネの仕事は、あまり手伝いたくない。プロジェクトは航海と同じで、最初に航路を決めても、とりまく周辺環境は変わりやすいし、人の出入りはあるし、思いもよらぬ出来事や故障もある。なぜ、あのとき、そういう決断をしたのか。何が理由で、航路に遅れたのか。すべてにさかのぼってトレーサビリティを確保しておくのは、とても大切なことだ。&#34;,&#34;source&#34;:&#34;&lt;a href=\&#34;http://brevis.exblog.jp/22703158/\&#34; target=\&#34;_blank\&#34;&gt;習慣化の力&amp;#160;: タイム・コンサルタントの日誌から&lt;/a&gt;&#34;}
+publish: 2015-01-011
+tags:
+title: undefined
+--&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://brevis.exblog.jp/22703158/&#34;&gt;習慣化の力&amp;#160;: タイム・コンサルタントの日誌から&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;船の船長は、航海日誌をつけている。Ship Log Bookという。
+わたしは、航海日誌もちゃんとつけられないような、だらしない船長の船には、乗りたくない。
+同じように、わたしはプロジェクト日誌をつけないプロマネの仕事は、あまり手伝いたくない。
+プロジェクトは航海と同じで、最初に航路を決めても、とりまく周辺環境は変わりやすいし、
+人の出入りはあるし、思いもよらぬ出来事や故障もある。
+なぜ、あのとき、そういう決断をしたのか。何が理由で、航路に遅れたのか。
+すべてにさかのぼってトレーサビリティを確保しておくのは、とても大切なことだ。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;なるほどなと非常に共感できたので，習慣化するためのアイデアを検討してみる。&lt;/p&gt;
+
+&lt;p&gt;習慣化するためにスモールスタートで考えて，
+- すべてのプロジェクトではなく，一番規模が大きいプロジェクトだけとする
+- 日誌を付けるタイミングは，問題が発生した時，判針に悩んだ時・判断を決定した時とする
+- 記述内容は，問題・方針・コスト・進捗・リスクなどとする
+- ツールは，Googleドキュメントととし，1プロジェクト1ファイルとする&lt;/p&gt;
+
+&lt;p&gt;なにかしっくり来ないので，習慣化するのは難しそう。。&lt;/p&gt;
+
+&lt;p&gt;今は，色々な場所に細切れには書いているので，何もやっていないわけではなく，
+- 地ケット管理
+- リスク管理
+- コスト管理
+- 進捗管理
+は，それぞれのツールで行っている。&lt;/p&gt;
+
+&lt;p&gt;ただ，トレーサビリティが低いというのは事実なので，自分なりのマネジメント方法を確立していきたい。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Memoized Recursion: プログラマの区分</title>
+      <link>http://rockin.work/post/2012/08/memoized-recursion/</link>
+      <pubDate>Fri, 03 Aug 2012 10:05:31 +0900</pubDate>
+      
+      <guid>http://rockin.work/post/2012/08/memoized-recursion/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://fumieval.tumblr.com/post/28324791101&#34;&gt;http://fumieval.tumblr.com/post/28324791101&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://fumieval.tumblr.com/post/28324791101&#34;&gt;fumieval&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;世の中には、24種類のプログラマがある。&lt;strong&gt;ソルジャー&lt;/strong&gt;、&lt;strong&gt;マーシナリー&lt;/strong&gt;、&lt;strong&gt;ガーディアン&lt;/strong&gt;、&lt;strong&gt;ナイト&lt;/strong&gt;、&lt;strong&gt;レンジャー&lt;/strong&gt;、&lt;strong&gt;ドラグーン&lt;/strong&gt;、&lt;strong&gt;サモナー&lt;/strong&gt;、&lt;strong&gt;グラディエーター&lt;/strong&gt;、&lt;strong&gt;ブラックスミス&lt;/strong&gt;、&lt;strong&gt;エクソシスト&lt;/strong&gt;、&lt;strong&gt;サイエンティスト&lt;/strong&gt;、&lt;strong&gt;エンチャンター&lt;/strong&gt;、&lt;strong&gt;ウィザード&lt;/strong&gt;、&lt;strong&gt;アルケミスト&lt;/strong&gt;、&lt;strong&gt;エレメンタリスト&lt;/strong&gt;(←New!!)、&lt;strong&gt;セイント&lt;/strong&gt;、&lt;strong&gt;ソーサラー&lt;/strong&gt;、&lt;strong&gt;ウォーロック&lt;/strong&gt;、&lt;strong&gt;ネクロマンサー&lt;/strong&gt;、&lt;strong&gt;シャーマン&lt;/strong&gt;、&lt;strong&gt;ハーミット&lt;/strong&gt;、&lt;strong&gt;バーサーカー&lt;/strong&gt;、&lt;strong&gt;ソーマタージ&lt;/strong&gt;、&lt;strong&gt;ノービス&lt;/strong&gt;だ。&lt;/p&gt;
+
+&lt;h2 id=&#34;ソルジャー:af78ae6800e733b37a4a0fac71dab836&#34;&gt;ソルジャー&lt;/h2&gt;
+
+&lt;p&gt;技術力は並みの、平凡なプログラマ。&lt;/p&gt;
+
+&lt;p&gt;得意な言語: C、Java、C++、Objective…&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>お父さん 僕が守るけん／片山君 最優秀賞-マイタウン広島</title>
+      <link>http://rockin.work/post/2012/07/otosan/</link>
+      <pubDate>Wed, 04 Jul 2012 12:53:40 +0900</pubDate>
+      
+      <guid>http://rockin.work/post/2012/07/otosan/</guid>
+      <description>&lt;!--
+id: 26469312028
+link: http://renoiv.tumblr.com/post/26469312028
+slug:
+date: Wed Jul 04 2012 12:53:40 GMT+0900 (JST)
+raw: {&#34;blog_name&#34;:&#34;renoiv&#34;,&#34;id&#34;:26469312028,&#34;post_url&#34;:&#34;http://renoiv.tumblr.com/post/26469312028&#34;,&#34;slug&#34;:&#34;&#34;,&#34;type&#34;:&#34;quote&#34;,&#34;date&#34;:&#34;2012-07-04 03:53:40 GMT&#34;,&#34;timestamp&#34;:1341374020,&#34;state&#34;:&#34;published&#34;,&#34;format&#34;:&#34;html&#34;,&#34;reblog_key&#34;:&#34;G6lIJ7b6&#34;,&#34;tags&#34;:[],&#34;short_url&#34;:&#34;http://tmblr.co/Z6KHMyOfiQOS&#34;,&#34;highlighted&#34;:[],&#34;note_count&#34;:1206,&#34;source_url&#34;:&#34;http://mytown.asahi.com/hiroshima/news.php?k_id=35000001011290003&#34;,&#34;source_title&#34;:&#34;mytown.asahi.com&#34;,&#34;text&#34;:&#34;&lt;p&gt;おとうさんがびょうきでなくなってから三年、ぼくは小学一年生になりました。&lt;/p&gt;\n\n&lt;p&gt;　おとうさんにほうこくがあります。きっとみてくれているとおもうけど、ぼくはおとうさんのおべんとうばこをかりました。&lt;/p&gt;\n\n&lt;p&gt;　ぼくは、きのうのことをおもいだすたびにむねがドキドキします。&lt;/p&gt;\n\n&lt;p&gt;　ぼくのおべんとうばことはしがあたって、すてきなおとがきこえました。きのうのおべんとうは、とくべつでした。まだ十じだというのに、おべんとうのことばかりかんがえてしまいました。&lt;/p&gt;\n\n&lt;p&gt;　なぜきのうのおべんとうがとくべつかというと、それはおとうさんのおべんとうばこをはじめてつかったからです。おとうさんがいなくなって、ぼくはとてもさみしくてかなしかったです。&lt;/p&gt;\n\n&lt;p&gt;　おとうさんのおしごとは、てんぷらやさんでした。おとうさんのあげたてんぷらはせかい一おいしかったです。ぼくがたべにいくと、いつもこっそり、ぼくだけにぼくの大すきなエビのてんぷらをたくさんあげてくれました。そんなとき、ぼくはなんだかぼくだけがとくべつなきがしてとてもうれしかったです。あれからたくさんたべて空手もがんばっているのでいままでつかっていたおべんとうばこではたりなくなってきました。&lt;/p&gt;\n\n&lt;p&gt;　「大きいおべんとうにしてほしい」&lt;/p&gt;\n\n&lt;p&gt;　とぼくがいうと、おかあさんがとだなのおくからおとうさんがいつもしごとのときにもっていっていたおべんとうばこを出してきてくれました。&lt;/p&gt;\n\n&lt;p&gt;　「ちょっとゆうくんには、大きすぎるけどたべれるかな」&lt;/p&gt;\n\n&lt;p&gt;　といいました。でもぼくはおとうさんのおべんとうばこをつかわせてもらうことになったのです。&lt;/p&gt;\n\n&lt;p&gt;　そしてあさからまちにまったおべんとうのじかん。ぼくはぜんぶたべることができました。たべたらなんだかおとうさんみたいに、つよくてやさしい人になれたきがして、おとうさんにあいたくなりました。いまおもいだしてもドキドキするくらいうれしくておいしいとくべつなおべんとうでした。&lt;/p&gt;\n\n&lt;p&gt;　もし、かみさまにおねがいができるなら、もういちどおとうさんと、おかあさんと、ぼくといもうととみんなでくらしたいです。でもおとうさんは、いつも空の上からぼくたちをみまもってくれています。&lt;/p&gt;\n\n&lt;p&gt;　おとうさんがいなくて、さみしいけれど、ぼくがかぞくの中で一人の男の子だから、おとうさんのかわりに、おかあさんといもうとをまもっていきます。おとうさんのおべんとうばこでしっかりごはんをたべて、もっともっとつよくて、やさしい男の子になります。&lt;/p&gt;\n\n&lt;p&gt;　おとうさん、おべんとうばこをかしてくれてありがとうございます。&lt;/p&gt;&#34;,&#34;source&#34;:&#34;&lt;p&gt;&lt;a href=\&#34;http://mytown.asahi.com/hiroshima/news.php?k_id=35000001011290003\&#34; target=\&#34;_blank\&#34;&gt;asahi.com:お父さん 僕が守るけん／片山君 最優秀賞-マイタウン広島&lt;/a&gt; (via &lt;a href=\&#34;http://clione.tumblr.com/\&#34; target=\&#34;_blank\&#34;&gt;clione&lt;/a&gt;)&lt;/p&gt;\n&lt;p&gt;2011-02-09&lt;/p&gt;\n&lt;p&gt;(via &lt;a class=\&#34;tumblr_blog\&#34; href=\&#34;http://s184.tumblr.com/\&#34; target=\&#34;_blank\&#34;&gt;s184&lt;/a&gt;)&lt;/p&gt;&#34;,&#34;reblog&#34;:{&#34;tree_html&#34;:&#34;&#34;,&#34;comment&#34;:&#34;&lt;p&gt;&lt;a href=\&#34;http://mytown.asahi.com/hiroshima/news.php?k_id=35000001011290003\&#34; target=\&#34;_blank\&#34;&gt;asahi.com:&amp;#12362;&amp;#29238;&amp;#12373;&amp;#12435; &amp;#20693;&amp;#12364;&amp;#23432;&amp;#12427;&amp;#12369;&amp;#12435;&amp;#65295;&amp;#29255;&amp;#23665;&amp;#21531; &amp;#26368;&amp;#20778;&amp;#31168;&amp;#36062;-&amp;#12510;&amp;#12452;&amp;#12479;&amp;#12454;&amp;#12531;&amp;#24195;&amp;#23798;&lt;/a&gt; (via &lt;a href=\&#34;http://clione.tumblr.com/\&#34; target=\&#34;_blank\&#34;&gt;clione&lt;/a&gt;)&lt;/p&gt;\n&lt;p&gt;2011-02-09&lt;/p&gt;\n&lt;p&gt;(via &lt;a class=\&#34;tumblr_blog\&#34; href=\&#34;http://s184.tumblr.com/\&#34; target=\&#34;_blank\&#34;&gt;s184&lt;/a&gt;)&lt;/p&gt;&#34;,&#34;trail&#34;:[]}}
+publish: 2012-07-04
+tags:
+title: undefined
+--&gt;
+
+&lt;pre&gt;&lt;code&gt;　おとうさんがびょうきでなくなってから三年、ぼくは小学一年生になりました。
+
+　おとうさんにほうこくがあります。
+きっとみてくれているとおもうけど、ぼくはおとうさんのおべんとうばこをかりました。
+
+　ぼくは、きのうのことをおもいだすたびにむねがドキドキします。
+
+　ぼくのおべんとうばことはしがあたって、すてきなおとがきこえました。
+きのうのおべんとうは、とくべつでした。
+まだ十じだというのに、おべんとうのことばかりかんがえてしまいました。
+
+　なぜきのうのおべんとうがとくべつかというと、それはおとうさんのおべんとうばこをはじめてつかったからです。
+おとうさんがいなくなって、ぼくはとてもさみしくてかなしかったです。
+
+　おとうさんのおしごとは、てんぷらやさんでした。
+おとうさんのあげたてんぷらはせかい一おいしかったです。
+ぼくがたべにいくと、いつもこっそり、ぼくだけにぼくの大すきなエビのてんぷらをたくさんあげてくれました。
+そんなとき、ぼくはなんだかぼくだけがとくべつなきがしてとてもうれしかったです。
+あれからたくさんたべて空手もがんばっているのでいままでつかっていたおべんとうばこではたりなくなってきました。
+
+　「大きいおべんとうにしてほしい」
+
+　とぼくがいうと、おかあさんがとだなのおくからおとうさんがいつもしごとのときにもっていっていたおべんとうばこを出してきてくれました。
+
+　「ちょっとゆうくんには、大きすぎるけどたべれるかな」
+
+　といいました。でもぼくはおとうさんのおべんとうばこをつかわせてもらうことになったのです。
+
+　そしてあさからまちにまったおべんとうのじかん。ぼくはぜんぶたべることができました。
+たべたらなんだかおとうさんみたいに、つよくてやさしい人になれたきがして、おとうさんにあいたくなりました。
+いまおもいだしてもドキドキするくらいうれしくておいしいとくべつなおべんとうでした。
+
+　もし、かみさまにおねがいができるなら、もういちどおとうさんと、おかあさんと、ぼくといもうととみんなでくらしたいです。
+でもおとうさんは、いつも空の上からぼくたちをみまもってくれています。
+
+　おとうさんがいなくて、さみしいけれど、ぼくがかぞくの中で一人の男の子だから、おとうさんのかわりに、おかあさんといもうとをまもっていきます。
+おとうさんのおべんとうばこでしっかりごはんをたべて、もっともっとつよくて、やさしい男の子になります。
+
+　おとうさん、おべんとうばこをかしてくれてありがとうございます。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=\&#34;http://mytown.asahi.com/hiroshima/news.php?k_id=35000001011290003\&#34; target=\&#34;_blank\&#34;&gt;asahi.com:お父さん 僕が守るけん／片山君 最優秀賞-マイタウン広島&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

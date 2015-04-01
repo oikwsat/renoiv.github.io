@@ -1,0 +1,31 @@
+
+
+
+
+<h1 id="https-localhost-にアクセス出来ない-解決:64ee67ce2610a0738da28b999577bf52"><a href="https://localhost/">https://localhost/</a> にアクセス出来ない (解決)</h1>
+
+<p><a href="http://localhost/">http://localhost/</a> には接続できるが，httpsには接続できない問題が発生。
+調査方法からメモしておく。</p>
+
+<ul>
+<li>443ポートに接続できるかどうか</li>
+</ul>
+
+<p><code>sudo lsof -i tcp:80 -i tcp:443  | grep LISTEN</code></p>
+
+<ul>
+<li><p>ファイアウォールが動いていないか システム環境設定 &gt;
+セキュリティとプライバシー &gt; ファイアウォールを確認</p></li>
+
+<li><p>httpd.conf の設定が正しいか</p></li>
+
+<li><p>httpd-ssl.conf の設定が正しいか</p></li>
+</ul>
+
+<p><code>$ sudo /usr/sbin/httpd -k start -e Debug -E /dev/stdout</code></p>
+
+<p>Yosemiteでapache2のバージョンが上がったことで，今までの設定ファイルでは動かなかった模様。
+モジュールの読込が足りなかったことと，mutexの設定をコメントアウトして解決。</p>
+
+<p>変更したファイル * /private/etc/apache2/httpd.conf *
+/private/etc/apache2/extra/httpd-ssl.conf</p>

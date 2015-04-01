@@ -1,0 +1,35 @@
+
+
+
+
+<h1 id="install-nvm-on-macos-x:a986ef693c392232da2737eafe80d023">install nvm on MacOS X</h1>
+
+<h1 id="install-nvm:a986ef693c392232da2737eafe80d023">install nvm</h1>
+
+<pre><code>    $ brew install nvm
+    $ source $(brew --prefix nvm)/nvm.sh
+    $ export NVM_DIR=~/.nvm
+
+    $ vim ~/.bash_profile
+    source $(brew --prefix nvm)/nvm.sh
+    export NVM_DIR=~/.nvm
+</code></pre>
+
+<h1 id="install-node-js:a986ef693c392232da2737eafe80d023">install node.js</h1>
+
+<pre><code>    $ nvm intall v0.10.26
+    $ nvm intall v0.10.30
+    $ nvm ls
+        v0.10.26
+    -&gt;  v0.10.30
+        system
+    $ node -v
+    v0.10.30
+</code></pre>
+
+<h1 id="switch-version:a986ef693c392232da2737eafe80d023">switch version</h1>
+
+<pre><code>    $ nvm use v0.10.26
+    $ node -v
+    v0.10.26
+</code></pre>

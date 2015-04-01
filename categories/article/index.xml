@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Article on Rockin Work</title>
+    <link>http://rockin.work/categories/article/</link>
+    <description>Recent content in Article on Rockin Work</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 11 Jan 2015 11:54:21 +0900</lastBuildDate>
+    <atom:link href="http://rockin.work/categories/article/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>プロジェクト日誌 雑感</title>
+      <link>http://rockin.work/post/2015/01/ship-log/</link>
+      <pubDate>Sun, 11 Jan 2015 11:54:21 +0900</pubDate>
+      
+      <guid>http://rockin.work/post/2015/01/ship-log/</guid>
+      <description>&lt;!--
+id: 107749359986
+link: http://renoiv.tumblr.com/post/107749359986/ship-log
+slug: ship-log
+date: Sun Jan 11 2015 11:54:21 GMT+0900 (JST)
+raw: {&#34;blog_name&#34;:&#34;renoiv&#34;,&#34;id&#34;:107749359986,&#34;post_url&#34;:&#34;http://renoiv.tumblr.com/post/107749359986/ship-log&#34;,&#34;slug&#34;:&#34;ship-log&#34;,&#34;type&#34;:&#34;quote&#34;,&#34;date&#34;:&#34;2015-01-11 02:54:21 GMT&#34;,&#34;timestamp&#34;:1420944861,&#34;state&#34;:&#34;published&#34;,&#34;format&#34;:&#34;markdown&#34;,&#34;reblog_key&#34;:&#34;WeDtGpnu&#34;,&#34;tags&#34;:[],&#34;short_url&#34;:&#34;http://tmblr.co/Z6KHMy1aMNC5o&#34;,&#34;highlighted&#34;:[],&#34;bookmarklet&#34;:true,&#34;note_count&#34;:0,&#34;source_url&#34;:&#34;http://brevis.exblog.jp/22703158/&#34;,&#34;source_title&#34;:&#34;brevis.exblog.jp&#34;,&#34;text&#34;:&#34;船の船長は、航海日誌をつけている。Ship Log Bookという。わたしは、航海日誌もちゃんとつけられないような、だらしない船長の船には、乗りたくない。同じように、わたしはプロジェクト日誌をつけないプロマネの仕事は、あまり手伝いたくない。プロジェクトは航海と同じで、最初に航路を決めても、とりまく周辺環境は変わりやすいし、人の出入りはあるし、思いもよらぬ出来事や故障もある。なぜ、あのとき、そういう決断をしたのか。何が理由で、航路に遅れたのか。すべてにさかのぼってトレーサビリティを確保しておくのは、とても大切なことだ。&#34;,&#34;source&#34;:&#34;&lt;a href=\&#34;http://brevis.exblog.jp/22703158/\&#34; target=\&#34;_blank\&#34;&gt;習慣化の力&amp;#160;: タイム・コンサルタントの日誌から&lt;/a&gt;&#34;}
+publish: 2015-01-011
+tags:
+title: undefined
+--&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://brevis.exblog.jp/22703158/&#34;&gt;習慣化の力&amp;#160;: タイム・コンサルタントの日誌から&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;船の船長は、航海日誌をつけている。Ship Log Bookという。
+わたしは、航海日誌もちゃんとつけられないような、だらしない船長の船には、乗りたくない。
+同じように、わたしはプロジェクト日誌をつけないプロマネの仕事は、あまり手伝いたくない。
+プロジェクトは航海と同じで、最初に航路を決めても、とりまく周辺環境は変わりやすいし、
+人の出入りはあるし、思いもよらぬ出来事や故障もある。
+なぜ、あのとき、そういう決断をしたのか。何が理由で、航路に遅れたのか。
+すべてにさかのぼってトレーサビリティを確保しておくのは、とても大切なことだ。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;なるほどなと非常に共感できたので，習慣化するためのアイデアを検討してみる。&lt;/p&gt;
+
+&lt;p&gt;習慣化するためにスモールスタートで考えて，
+- すべてのプロジェクトではなく，一番規模が大きいプロジェクトだけとする
+- 日誌を付けるタイミングは，問題が発生した時，判針に悩んだ時・判断を決定した時とする
+- 記述内容は，問題・方針・コスト・進捗・リスクなどとする
+- ツールは，Googleドキュメントととし，1プロジェクト1ファイルとする&lt;/p&gt;
+
+&lt;p&gt;なにかしっくり来ないので，習慣化するのは難しそう。。&lt;/p&gt;
+
+&lt;p&gt;今は，色々な場所に細切れには書いているので，何もやっていないわけではなく，
+- 地ケット管理
+- リスク管理
+- コスト管理
+- 進捗管理
+は，それぞれのツールで行っている。&lt;/p&gt;
+
+&lt;p&gt;ただ，トレーサビリティが低いというのは事実なので，自分なりのマネジメント方法を確立していきたい。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
