@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memo on Rockin Work</title>
+    <link>http://rockin.work/categories/memo/</link>
+    <description>Recent content in Memo on Rockin Work</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 14 Aug 2014 20:39:00 +0900</lastBuildDate>
+    <atom:link href="http://rockin.work/categories/memo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>install nvm on MacOS X</title>
+      <link>http://rockin.work/post/2014/08/install-nvm-on-macos-x/</link>
+      <pubDate>Thu, 14 Aug 2014 20:39:00 +0900</pubDate>
+      
+      <guid>http://rockin.work/post/2014/08/install-nvm-on-macos-x/</guid>
+      <description>
+
+&lt;!--
+id: 94717298266
+link: http://renoiv.tumblr.com/post/94717298266/install-nvm-on-macos-x
+slug: install-nvm-on-macos-x
+date: Thu Aug 14 2014 20:39:00 GMT+0900 (JST)
+raw: {&#34;blog_name&#34;:&#34;renoiv&#34;,&#34;id&#34;:94717298266,&#34;post_url&#34;:&#34;http://renoiv.tumblr.com/post/94717298266/install-nvm-on-macos-x&#34;,&#34;slug&#34;:&#34;install-nvm-on-macos-x&#34;,&#34;type&#34;:&#34;text&#34;,&#34;date&#34;:&#34;2014-08-14 11:39:00 GMT&#34;,&#34;timestamp&#34;:1408016340,&#34;state&#34;:&#34;published&#34;,&#34;format&#34;:&#34;markdown&#34;,&#34;reblog_key&#34;:&#34;YS2nrMEV&#34;,&#34;tags&#34;:[],&#34;short_url&#34;:&#34;http://tmblr.co/Z6KHMy1ODbqPQ&#34;,&#34;highlighted&#34;:[],&#34;note_count&#34;:0,&#34;title&#34;:&#34;install nvm on MacOS X&#34;,&#34;body&#34;:&#34;&lt;h1&gt;install nvm&lt;/h1&gt;\n\n&lt;pre&gt;\n    $ brew install nvm\n    $ source $(brew --prefix nvm)/nvm.sh\n    $ export NVM_DIR=~/.nvm\n\n    $ vim ~/.bash_profile\n    source $(brew --prefix nvm)/nvm.sh\n    export NVM_DIR=~/.nvm\n&lt;/pre&gt;\n\n&lt;h1&gt;install node.js&lt;/h1&gt;\n\n&lt;pre&gt;\n    $ nvm intall v0.10.26\n    $ nvm intall v0.10.30\n    $ nvm ls\n        v0.10.26\n    -&amp;gt;  v0.10.30\n        system\n    $ node -v\n    v0.10.30\n&lt;/pre&gt;\n\n&lt;h1&gt;switch version&lt;/h1&gt;\n\n&lt;pre&gt;\n    $ nvm use v0.10.26\n    $ node -v\n    v0.10.26\n&lt;/pre&gt;&#34;}
+publish: 2014-08-014
+tags:
+title: install nvm on MacOS X
+--&gt;
+
+&lt;h1 id=&#34;install-nvm:a986ef693c392232da2737eafe80d023&#34;&gt;install nvm&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;    $ brew install nvm
+    $ source $(brew --prefix nvm)/nvm.sh
+    $ export NVM_DIR=~/.nvm
+
+    $ vim ~/.bash_profile
+    source $(brew --prefix nvm)/nvm.sh
+    export NVM_DIR=~/.nvm
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;install-node-js:a986ef693c392232da2737eafe80d023&#34;&gt;install node.js&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;    $ nvm intall v0.10.26
+    $ nvm intall v0.10.30
+    $ nvm ls
+        v0.10.26
+    -&amp;gt;  v0.10.30
+        system
+    $ node -v
+    v0.10.30
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;switch-version:a986ef693c392232da2737eafe80d023&#34;&gt;switch version&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;    $ nvm use v0.10.26
+    $ node -v
+    v0.10.26
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>hipchatのfile upload先はs3</title>
+      <link>http://rockin.work/post/2014/07/are-files-uploaded-to-hipchat-secure-private/</link>
+      <pubDate>Fri, 11 Jul 2014 13:13:38 +0900</pubDate>
+      
+      <guid>http://rockin.work/post/2014/07/are-files-uploaded-to-hipchat-secure-private/</guid>
+      <description>
+
+&lt;!--
+id: 91421664611
+link: http://renoiv.tumblr.com/post/91421664611/are-files-uploaded-to-hipchat-secure-private
+slug: are-files-uploaded-to-hipchat-secure-private
+date: Fri Jul 11 2014 13:13:38 GMT+0900 (JST)
+raw: {&#34;blog_name&#34;:&#34;renoiv&#34;,&#34;id&#34;:91421664611,&#34;post_url&#34;:&#34;http://renoiv.tumblr.com/post/91421664611/are-files-uploaded-to-hipchat-secure-private&#34;,&#34;slug&#34;:&#34;are-files-uploaded-to-hipchat-secure-private&#34;,&#34;type&#34;:&#34;link&#34;,&#34;date&#34;:&#34;2014-07-11 04:13:38 GMT&#34;,&#34;timestamp&#34;:1405052018,&#34;state&#34;:&#34;published&#34;,&#34;format&#34;:&#34;html&#34;,&#34;reblog_key&#34;:&#34;67NXfv5U&#34;,&#34;tags&#34;:[],&#34;short_url&#34;:&#34;http://tmblr.co/Z6KHMy1L99_LZ&#34;,&#34;highlighted&#34;:[],&#34;note_count&#34;:0,&#34;title&#34;:&#34;Are files uploaded to HipChat secure/private? – Help Center&#34;,&#34;url&#34;:&#34;http://help.hipchat.com/knowledgebase/articles/64477-are-files-uploaded-to-hipchat-secure-private-&#34;,&#34;description&#34;:&#34;&lt;ul&gt;&lt;li&gt;HipChatのfile upload先はS3&lt;/li&gt;&lt;li&gt;URLはランダムで生成&lt;/li&gt;&lt;li&gt;認証はなし&lt;/li&gt;&lt;/ul&gt;この仕様はちょっと…。デフォルト認証ありにしてほしい&#34;}
+publish: 2014-07-011
+tags:
+title: Are files uploaded to HipChat secure/private? – Help Center
+--&gt;
+
+&lt;h1 id=&#34;are-files-uploaded-to-hipchat-secure-private-help-center:d58445aab99357e4c514462efb40fe6f&#34;&gt;Are files uploaded to HipChat secure/private? – Help Center&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://help.hipchat.com/knowledgebase/articles/64477-are-files-uploaded-to-hipchat-secure-private-&#34;&gt;http://help.hipchat.com/knowledgebase/articles/64477-are-files-uploaded-to-hipchat-secure-private-&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HipChatのfile upload先はS3&lt;/li&gt;
+&lt;li&gt;URLはランダムで生成&lt;/li&gt;
+&lt;li&gt;認証はなし&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;この仕様はちょっと…。デフォルト認証ありにしてほしい&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

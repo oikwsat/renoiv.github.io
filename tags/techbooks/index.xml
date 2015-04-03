@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Techbooks on Rockin Work</title>
+    <link>http://localhost:1313/tags/techbooks/</link>
+    <description>Recent content in Techbooks on Rockin Work</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 05 Aug 2014 01:46:13 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/techbooks/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2014-Aug発売の技術書チェックリスト</title>
+      <link>http://localhost:1313/post/2014/08/techbooks/</link>
+      <pubDate>Tue, 05 Aug 2014 01:46:13 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/08/techbooks/</guid>
+      <description>
+
+&lt;!--
+id: 93788025201
+link: http://renoiv.tumblr.com/post/93788025201/2014-aug
+slug: 2014-aug
+date: Tue Aug 05 2014 01:46:13 GMT+0900 (JST)
+raw: {&#34;blog_name&#34;:&#34;renoiv&#34;,&#34;id&#34;:93788025201,&#34;post_url&#34;:&#34;http://renoiv.tumblr.com/post/93788025201/2014-aug&#34;,&#34;slug&#34;:&#34;2014-aug&#34;,&#34;type&#34;:&#34;text&#34;,&#34;date&#34;:&#34;2014-08-04 16:46:13 GMT&#34;,&#34;timestamp&#34;:1407170773,&#34;state&#34;:&#34;published&#34;,&#34;format&#34;:&#34;markdown&#34;,&#34;reblog_key&#34;:&#34;qrw7ENrK&#34;,&#34;tags&#34;:[],&#34;short_url&#34;:&#34;http://tmblr.co/Z6KHMy1NMCx5n&#34;,&#34;highlighted&#34;:[],&#34;note_count&#34;:0,&#34;title&#34;:&#34;2014-Aug発売の技術書チェックリスト&#34;,&#34;body&#34;:&#34;&lt;p&gt;今月は7冊をピックアップ。&lt;/p&gt;\n\n&lt;h3&gt;&lt;a href=\&#34;http://www.amazon.co.jp/gp/product/4774166278/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=4774166278&amp;amp;linkCode=as2&amp;amp;tag=renoiswebsite-22\&#34; target=\&#34;_blank\&#34;&gt;WEB+DB PRESS Vol.82&lt;/a&gt;&lt;img src=\&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=renoiswebsite-22&amp;amp;l=as2&amp;amp;o=9&amp;amp;a=4774166278\&#34; width=\&#34;1\&#34; height=\&#34;1\&#34; border=\&#34;0\&#34; alt=\&#34;\&#34; style=\&#34;border:none !important; margin:0px !important;\&#34;/&gt;&lt;/h3&gt;\n\n&lt;p&gt;偶数月はマスト。&lt;/p&gt;\n\n&lt;h3&gt;&lt;a href=\&#34;http://www.amazon.co.jp/gp/product/4774169838/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=4774169838&amp;amp;linkCode=as2&amp;amp;tag=renoiswebsite-22\&#34; target=\&#34;_blank\&#34;&gt;サーバ/インフラエンジニア養成読本 ログ収集~可視化編 [現場主導のデータ分析環境を構築!] (Software Design plus)&lt;/a&gt;&lt;img src=\&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=renoiswebsite-22&amp;amp;l=as2&amp;amp;o=9&amp;amp;a=4774169838\&#34; width=\&#34;1\&#34; height=\&#34;1\&#34; border=\&#34;0\&#34; alt=\&#34;\&#34; style=\&#34;border:none !important; margin:0px !important;\&#34;/&gt;&lt;/h3&gt;\n\n&lt;p&gt;164p. Fluentd, Kibana, Elasticsearchなどの情報収集に。&lt;/p&gt;\n\n&lt;h3&gt;&lt;a href=\&#34;http://www.amazon.co.jp/gp/product/4774166340/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=4774166340&amp;amp;linkCode=as2&amp;amp;tag=renoiswebsite-22\&#34; target=\&#34;_blank\&#34;&gt;Vim script テクニックバイブル ~Vim使いの魔法の杖&lt;/a&gt;&lt;img src=\&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=renoiswebsite-22&amp;amp;l=as2&amp;amp;o=9&amp;amp;a=4774166340\&#34; width=\&#34;1\&#34; height=\&#34;1\&#34; border=\&#34;0\&#34; alt=\&#34;\&#34; style=\&#34;border:none !important; margin:0px !important;\&#34;/&gt;&lt;/h3&gt;\n\n&lt;p&gt;320p. Vimスクリプトのバイブル！&lt;/p&gt;\n\n&lt;h3&gt;&lt;a href=\&#34;http://www.amazon.co.jp/gp/product/4822285359/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=4822285359&amp;amp;linkCode=as2&amp;amp;tag=renoiswebsite-22\&#34; target=\&#34;_blank\&#34;&gt;The DevOps 逆転だ!    究極の継続的デリバリー&lt;/a&gt;&lt;img src=\&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=renoiswebsite-22&amp;amp;l=as2&amp;amp;o=9&amp;amp;a=4822285359\&#34; width=\&#34;1\&#34; height=\&#34;1\&#34; border=\&#34;0\&#34; alt=\&#34;\&#34; style=\&#34;border:none !important; margin:0px !important;\&#34;/&gt;&lt;/h3&gt;\n\n&lt;p&gt;400p. プロジェクトマネージャーの読み物として。&lt;/p&gt;\n\n&lt;h3&gt;&lt;a href=\&#34;http://www.amazon.co.jp/gp/product/4839951772/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=4839951772&amp;amp;linkCode=as2&amp;amp;tag=renoiswebsite-22\&#34; target=\&#34;_blank\&#34;&gt;世界で闘うプロダクトマネジャーになるための本 ~トップIT企業のPMとして就職する方法~&lt;/a&gt;&lt;img src=\&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=renoiswebsite-22&amp;amp;l=as2&amp;amp;o=9&amp;amp;a=4839951772\&#34; width=\&#34;1\&#34; height=\&#34;1\&#34; border=\&#34;0\&#34; alt=\&#34;\&#34; style=\&#34;border:none !important; margin:0px !important;\&#34;/&gt;&lt;/h3&gt;\n\n&lt;p&gt;336p. プロダクトマネージャの読み物として。&lt;/p&gt;\n\n&lt;h3&gt;&lt;a href=\&#34;http://www.amazon.co.jp/gp/product/4897979579/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=4897979579&amp;amp;linkCode=as2&amp;amp;tag=renoiswebsite-22\&#34; target=\&#34;_blank\&#34;&gt;カンバン  ソフトウェア開発の変革 Improving Service Delivery in Technology Business&lt;/a&gt;&lt;img src=\&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=renoiswebsite-22&amp;amp;l=as2&amp;amp;o=9&amp;amp;a=4897979579\&#34; width=\&#34;1\&#34; height=\&#34;1\&#34; border=\&#34;0\&#34; alt=\&#34;\&#34; style=\&#34;border:none !important; margin:0px !important;\&#34;/&gt;&lt;/h3&gt;\n\n&lt;p&gt;360p. 自分的にホットトピックのため。ツールとしてTrelloを使ってみたが運用が回らなかったのでアナログで試そうと思っているところ。&lt;/p&gt;\n\n&lt;h3&gt;&lt;a href=\&#34;http://www.amazon.co.jp/gp/product/B00M939XZY/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=B00M939XZY&amp;amp;linkCode=as2&amp;amp;tag=%20renoiswebsite\&#34; target=\&#34;_blank\&#34;&gt;作りながら学ぶjQueryデザインの教科書&lt;/a&gt;&lt;img src=\&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=renoiswebsite-22&amp;amp;l=as2&amp;amp;o=9&amp;amp;a=B00M939XZY\&#34; width=\&#34;1\&#34; height=\&#34;1\&#34; border=\&#34;0\&#34; alt=\&#34;\&#34; style=\&#34;border:none !important; margin:0px !important;\&#34;/&gt;&lt;/h3&gt;\n\n&lt;p&gt;タイトルから写経してデザイン＆jQueryを一緒に学べそうというところで良さそう&lt;/p&gt;\n\n&lt;h3&gt;&lt;a href=\&#34;http://www.amazon.co.jp/gp/product/479813712X/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=479813712X&amp;amp;linkCode=as2&amp;amp;tag=renoiswebsite-22\&#34; target=\&#34;_blank\&#34;&gt;入門Backbone.js (Programmer&amp;#8217;s SELECTION)&lt;/a&gt;&lt;img src=\&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=renoiswebsite-22&amp;amp;l=as2&amp;amp;o=9&amp;amp;a=479813712X\&#34; width=\&#34;1\&#34; height=\&#34;1\&#34; border=\&#34;0\&#34; alt=\&#34;\&#34; style=\&#34;border:none !important; margin:0px !important;\&#34;/&gt;&lt;/h3&gt;\n\n&lt;p&gt;Backbone.jsの入門用に。&lt;/p&gt;\n\n&lt;h3&gt;&lt;a href=\&#34;http://shop.oreilly.com/product/0636920034667.do\&#34; target=\&#34;_blank\&#34;&gt;Responsive &amp;amp; Fast&lt;/a&gt;&lt;/h3&gt;\n\n&lt;p&gt;58p. ハイパフォーマンスなレスポンシブデザインを実装するために。&lt;/p&gt;\n\n&lt;h3&gt;&lt;a href=\&#34;http://shop.oreilly.com/product/0636920030027.do\&#34; target=\&#34;_blank\&#34;&gt;Social eCommerce&lt;/a&gt;&lt;/h3&gt;\n\n&lt;p&gt;310p. eCommerceの市場調査のために。&lt;/p&gt;&#34;}
+publish: 2014-08-05
+tags:
+title: 2014-Aug発売の技術書チェックリスト
+--&gt;
+
+&lt;p&gt;今月は7冊をピックアップ。&lt;/p&gt;
+
+&lt;h3 id=&#34;web-db-press-vol-82-http-www-amazon-co-jp-gp-product-4774166278-ref-as-li-ss-tl-ie-utf8-camp-247-creative-7399-creativeasin-4774166278-linkcode-as2-tag-renoiswebsite-22-http-ir-jp-amazon-adsystem-com-e-ir-t-renoiswebsite-22-l-as2-o-9-a-4774166278:0fa32b376cc41843ff7ab22221e023d3&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/product/4774166278/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=4774166278&amp;amp;linkCode=as2&amp;amp;tag=renoiswebsite-22&#34;&gt;WEB+DB PRESS Vol.82&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=renoiswebsite-22&amp;amp;l=as2&amp;amp;o=9&amp;amp;a=4774166278&#34; alt=&#34;&#34; /&gt;
+&lt;/h3&gt;
+
+&lt;p&gt;偶数月はマスト。&lt;/p&gt;
+
+&lt;h3 id=&#34;サーバ-インフラエンジニア養成読本-ログ収集-可視化編-現場主導のデータ分析環境を構築-software-design-plus-http-www-amazon-co-jp-gp-product-4774169838-ref-as-li-ss-tl-ie-utf8-camp-247-creative-7399-creativeasin-4774169838-linkcode-as2-tag-renoiswebsite-22-http-ir-jp-amazon-adsystem-com-e-ir-t-renoiswebsite-22-l-as2-o-9-a-4774169838:0fa32b376cc41843ff7ab22221e023d3&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/product/4774169838/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=4774169838&amp;amp;linkCode=as2&amp;amp;tag=renoiswebsite-22&#34;&gt;サーバ/インフラエンジニア養成読本 ログ収集~可視化編 &lt;a href=&#34;Software Design plus&#34;&gt;現場主導のデータ分析環境を構築!&lt;/a&gt;&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=renoiswebsite-22&amp;amp;l=as2&amp;amp;o=9&amp;amp;a=4774169838&#34; alt=&#34;&#34; /&gt;
+&lt;/h3&gt;
+
+&lt;p&gt;164p. Fluentd, Kibana, Elasticsearchなどの情報収集に。&lt;/p&gt;
+
+&lt;h3 id=&#34;vim-script-テクニックバイブル-vim使いの魔法の杖-http-www-amazon-co-jp-gp-product-4774166340-ref-as-li-ss-tl-ie-utf8-camp-247-creative-7399-creativeasin-4774166340-linkcode-as2-tag-renoiswebsite-22-http-ir-jp-amazon-adsystem-com-e-ir-t-renoiswebsite-22-l-as2-o-9-a-4774166340:0fa32b376cc41843ff7ab22221e023d3&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/product/4774166340/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=4774166340&amp;amp;linkCode=as2&amp;amp;tag=renoiswebsite-22&#34;&gt;Vim script テクニックバイブル ~Vim使いの魔法の杖&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=renoiswebsite-22&amp;amp;l=as2&amp;amp;o=9&amp;amp;a=4774166340&#34; alt=&#34;&#34; /&gt;
+&lt;/h3&gt;
+
+&lt;p&gt;320p. Vimスクリプトのバイブル！&lt;/p&gt;
+
+&lt;h3 id=&#34;the-devops-逆転だ-究極の継続的デリバリー-http-www-amazon-co-jp-gp-product-4822285359-ref-as-li-ss-tl-ie-utf8-camp-247-creative-7399-creativeasin-4822285359-linkcode-as2-tag-renoiswebsite-22-http-ir-jp-amazon-adsystem-com-e-ir-t-renoiswebsite-22-l-as2-o-9-a-4822285359:0fa32b376cc41843ff7ab22221e023d3&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/product/4822285359/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=4822285359&amp;amp;linkCode=as2&amp;amp;tag=renoiswebsite-22&#34;&gt;The DevOps 逆転だ! 究極の継続的デリバリー&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=renoiswebsite-22&amp;amp;l=as2&amp;amp;o=9&amp;amp;a=4822285359&#34; alt=&#34;&#34; /&gt;
+&lt;/h3&gt;
+
+&lt;p&gt;400p. プロジェクトマネージャーの読み物として。&lt;/p&gt;
+
+&lt;h3 id=&#34;世界で闘うプロダクトマネジャーになるための本-トップit企業のpmとして就職する方法-http-www-amazon-co-jp-gp-product-4839951772-ref-as-li-ss-tl-ie-utf8-camp-247-creative-7399-creativeasin-4839951772-linkcode-as2-tag-renoiswebsite-22-http-ir-jp-amazon-adsystem-com-e-ir-t-renoiswebsite-22-l-as2-o-9-a-4839951772:0fa32b376cc41843ff7ab22221e023d3&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/product/4839951772/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=4839951772&amp;amp;linkCode=as2&amp;amp;tag=renoiswebsite-22&#34;&gt;世界で闘うプロダクトマネジャーになるための本 ~トップIT企業のPMとして就職する方法~&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=renoiswebsite-22&amp;amp;l=as2&amp;amp;o=9&amp;amp;a=4839951772&#34; alt=&#34;&#34; /&gt;
+&lt;/h3&gt;
+
+&lt;p&gt;336p. プロダクトマネージャの読み物として。&lt;/p&gt;
+
+&lt;h3 id=&#34;カンバン-ソフトウェア開発の変革-improving-service-delivery-in-technology-business-http-www-amazon-co-jp-gp-product-4897979579-ref-as-li-ss-tl-ie-utf8-camp-247-creative-7399-creativeasin-4897979579-linkcode-as2-tag-renoiswebsite-22-http-ir-jp-amazon-adsystem-com-e-ir-t-renoiswebsite-22-l-as2-o-9-a-4897979579:0fa32b376cc41843ff7ab22221e023d3&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/product/4897979579/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=4897979579&amp;amp;linkCode=as2&amp;amp;tag=renoiswebsite-22&#34;&gt;カンバン ソフトウェア開発の変革 Improving Service Delivery in Technology Business&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=renoiswebsite-22&amp;amp;l=as2&amp;amp;o=9&amp;amp;a=4897979579&#34; alt=&#34;&#34; /&gt;
+&lt;/h3&gt;
+
+&lt;p&gt;360p.
+自分的にホットトピックのため。ツールとしてTrelloを使ってみたが運用が回らなかったのでアナログで試そうと思っているところ。&lt;/p&gt;
+
+&lt;h3 id=&#34;作りながら学ぶjqueryデザインの教科書-http-www-amazon-co-jp-gp-product-b00m939xzy-ref-as-li-ss-tl-ie-utf8-camp-247-creative-7399-creativeasin-b00m939xzy-linkcode-as2-tag-20renoiswebsite-http-ir-jp-amazon-adsystem-com-e-ir-t-renoiswebsite-22-l-as2-o-9-a-b00m939xzy:0fa32b376cc41843ff7ab22221e023d3&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/product/B00M939XZY/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=B00M939XZY&amp;amp;linkCode=as2&amp;amp;tag=%20renoiswebsite&#34;&gt;作りながら学ぶjQueryデザインの教科書&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=renoiswebsite-22&amp;amp;l=as2&amp;amp;o=9&amp;amp;a=B00M939XZY&#34; alt=&#34;&#34; /&gt;
+&lt;/h3&gt;
+
+&lt;p&gt;タイトルから写経してデザイン＆jQueryを一緒に学べそうというところで良さそう&lt;/p&gt;
+
+&lt;h3 id=&#34;入門backbone-js-programmer-s-selection-http-www-amazon-co-jp-gp-product-479813712x-ref-as-li-ss-tl-ie-utf8-camp-247-creative-7399-creativeasin-479813712x-linkcode-as2-tag-renoiswebsite-22-http-ir-jp-amazon-adsystem-com-e-ir-t-renoiswebsite-22-l-as2-o-9-a-479813712x:0fa32b376cc41843ff7ab22221e023d3&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/product/479813712X/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=479813712X&amp;amp;linkCode=as2&amp;amp;tag=renoiswebsite-22&#34;&gt;入門Backbone.js (Programmer’s SELECTION)&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=renoiswebsite-22&amp;amp;l=as2&amp;amp;o=9&amp;amp;a=479813712X&#34; alt=&#34;&#34; /&gt;
+&lt;/h3&gt;
+
+&lt;p&gt;Backbone.jsの入門用に。&lt;/p&gt;
+
+&lt;h3 id=&#34;responsive-fast-http-shop-oreilly-com-product-0636920034667-do:0fa32b376cc41843ff7ab22221e023d3&#34;&gt;&lt;a href=&#34;http://shop.oreilly.com/product/0636920034667.do&#34;&gt;Responsive &amp;amp; Fast&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;58p. ハイパフォーマンスなレスポンシブデザインを実装するために。&lt;/p&gt;
+
+&lt;h3 id=&#34;social-ecommerce-http-shop-oreilly-com-product-0636920030027-do:0fa32b376cc41843ff7ab22221e023d3&#34;&gt;&lt;a href=&#34;http://shop.oreilly.com/product/0636920030027.do&#34;&gt;Social eCommerce&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;310p. eCommerceの市場調査のために。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Keynote on Rockin Work</title>
+    <link>http://rockin.work/tags/keynote/</link>
+    <description>Recent content in Keynote on Rockin Work</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 26 Jan 2014 16:41:14 +0900</lastBuildDate>
+    <atom:link href="http://rockin.work/tags/keynote/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>reblog: 大体いい感じになるKeynoteテンプレート「Azusa」作った</title>
+      <link>http://rockin.work/post/2014/06/reblog-keynote-azusa/</link>
+      <pubDate>Sun, 26 Jan 2014 16:41:14 +0900</pubDate>
+      
+      <guid>http://rockin.work/post/2014/06/reblog-keynote-azusa/</guid>
+      <description>
+
+&lt;!--
+id: 89944019886
+link: http://renoiv.tumblr.com/post/89944019886/keynote-azusa
+slug: keynote-azusa
+date: Thu Jun 26 2014 16:41:14 GMT+0900 (JST)
+raw: {&#34;blog_name&#34;:&#34;renoiv&#34;,&#34;id&#34;:89944019886,&#34;post_url&#34;:&#34;http://renoiv.tumblr.com/post/89944019886/keynote-azusa&#34;,&#34;slug&#34;:&#34;keynote-azusa&#34;,&#34;type&#34;:&#34;link&#34;,&#34;date&#34;:&#34;2014-06-26 07:41:14 GMT&#34;,&#34;timestamp&#34;:1403768474,&#34;state&#34;:&#34;published&#34;,&#34;format&#34;:&#34;markdown&#34;,&#34;reblog_key&#34;:&#34;XMsA3hG9&#34;,&#34;tags&#34;:[],&#34;short_url&#34;:&#34;http://tmblr.co/Z6KHMy1Jn5DEk&#34;,&#34;highlighted&#34;:[],&#34;note_count&#34;:185,&#34;title&#34;:&#34;大体いい感じになるKeynoteテンプレート「Azusa」作った&#34;,&#34;url&#34;:&#34;http://memo.sanographix.net/post/82160791768&#34;,&#34;description&#34;:&#34;&lt;p&gt;&lt;a href=\&#34;http://memo.sanographix.net/post/82160791768\&#34; class=\&#34;tumblr_blog\&#34; target=\&#34;_blank\&#34;&gt;sanographix-memo&lt;/a&gt;:&lt;/p&gt;\n\n&lt;blockquote&gt;\n&lt;p&gt;いい感じのスライド、作るのむずいので、大体いい感じになるKeynoteテンプレート作った。ここからダウンロードできる。&lt;/p&gt; &lt;ul&gt;&lt;li&gt;&lt;a href=\&#34;https://github.com/sanographix/azusa-keynote\&#34; target=\&#34;_blank\&#34;&gt;https://github.com/sanographix/azusa-keynote&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;&lt;h2&gt;解説&lt;/h2&gt; &lt;p&gt;サンプルも兼ねた解説スライド作った。&lt;/p&gt; &lt;script async=\&#34;\&#34; class=\&#34;speakerdeck-embed\&#34; data-id=\&#34;53527fd0a1b20131ed0a4e04b85186c1\&#34; data-ratio=\&#34;1.33333333333333\&#34; src=\&#34;//speakerdeck.com/assets/embed.js\&#34;&gt;&lt;/script&gt;&lt;p&gt;だいたいスライドに書いたけど要約すると下記のようなことを考えた。&lt;/p&gt; &lt;h2&gt;前提&lt;/h2&gt; &lt;ul&gt;&lt;li&gt;スライド作るの難しい&lt;/li&gt;\n&lt;li&gt;色とか難しい&lt;/li&gt;\n&lt;li&gt;かっこよくしたい&lt;/li&gt;\n&lt;/ul&gt;&lt;h2&gt;Azusaっていうのを作った&lt;/h2&gt; &lt;p&gt;Azusaは、大体いい感じになるKeynoteテンプレートです&lt;/p&gt; &lt;p&gt;&lt;img src=\&#34;https://31.media.tumblr.com/800dad2cb2e1852749766b2763c05d2f/tumblr_inline_n3qt4t0Ttw1qaxsyz.png\&#34; alt=\&#34;\&#34;/&gt;&lt;/p&gt; &lt;h3&gt;Azusaの特徴&lt;/h3&gt; &lt;ul&gt;&lt;li&gt;大体いい感じになるカラースキーム&lt;/li&gt;\n&lt;li&gt;&amp;#8230;&lt;/li&gt;\n&lt;/ul&gt;&lt;/blockquote&gt;&#34;,&#34;reblog&#34;:{&#34;tree_html&#34;:&#34;&lt;p&gt;&lt;a href=\&#34;http://memo.sanographix.net/post/82160791768\&#34; class=\&#34;tumblr_blog\&#34; target=\&#34;_blank\&#34;&gt;sanographix-memo&lt;/a&gt;:&lt;/p&gt;&lt;blockquote&gt;\n&lt;p&gt;いい感じのスライド、作るのむずいので、大体いい感じになるKeynoteテンプレート作った。ここからダウンロードできる。&lt;/p&gt; &lt;ul&gt;&lt;li&gt;&lt;a href=\&#34;https://github.com/sanographix/azusa-keynote\&#34; target=\&#34;_blank\&#34;&gt;https://github.com/sanographix/azusa-keynote&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;&lt;h2&gt;解説&lt;/h2&gt; &lt;p&gt;サンプルも兼ねた解説スライド作った。&lt;/p&gt; &lt;script async=\&#34;\&#34; class=\&#34;speakerdeck-embed\&#34; data-id=\&#34;53527fd0a1b20131ed0a4e04b85186c1\&#34; data-ratio=\&#34;1.33333333333333\&#34; src=\&#34;//speakerdeck.com/assets/embed.js\&#34;/&gt;&lt;p&gt;だいたいスライドに書いたけど要約すると下記のようなことを考えた。&lt;/p&gt; &lt;h2&gt;前提&lt;/h2&gt; &lt;ul&gt;&lt;li&gt;スライド作るの難しい&lt;/li&gt;\n&lt;li&gt;色とか難しい&lt;/li&gt;\n&lt;li&gt;かっこよくしたい&lt;/li&gt;\n&lt;/ul&gt;&lt;h2&gt;Azusaっていうのを作った&lt;/h2&gt; &lt;p&gt;Azusaは、大体いい感じになるKeynoteテンプレートです&lt;/p&gt; &lt;p&gt;&lt;img src=\&#34;https://31.media.tumblr.com/800dad2cb2e1852749766b2763c05d2f/tumblr_inline_n3qt4t0Ttw1qaxsyz.png\&#34; alt=\&#34;\&#34;/&gt;&lt;/p&gt; &lt;h3&gt;Azusaの特徴&lt;/h3&gt; &lt;ul&gt;&lt;li&gt;大体いい感じになるカラースキーム&lt;/li&gt;\n&lt;li&gt;…&lt;/li&gt;\n&lt;/ul&gt;&lt;/blockquote&gt;&#34;,&#34;comment&#34;:&#34;&#34;,&#34;trail&#34;:[{&#34;blog&#34;:{&#34;name&#34;:&#34;sanographix-memo&#34;,&#34;theme&#34;:{&#34;avatar_shape&#34;:&#34;circle&#34;,&#34;background_color&#34;:&#34;#FFFFFF&#34;,&#34;body_font&#34;:&#34;Helvetica Neue&#34;,&#34;header_bounds&#34;:0,&#34;header_image&#34;:&#34;http://assets.tumblr.com/images/default_header/optica_pattern_02.png?_v=b976ee00195b1b7806c94ae285ca46a7&#34;,&#34;header_image_focused&#34;:&#34;http://assets.tumblr.com/images/default_header/optica_pattern_02.png?_v=b976ee00195b1b7806c94ae285ca46a7&#34;,&#34;header_image_scaled&#34;:&#34;http://assets.tumblr.com/images/default_header/optica_pattern_02.png?_v=b976ee00195b1b7806c94ae285ca46a7&#34;,&#34;header_stretch&#34;:true,&#34;link_color&#34;:&#34;#f75d6e&#34;,&#34;show_avatar&#34;:true,&#34;show_description&#34;:true,&#34;show_header_image&#34;:false,&#34;show_title&#34;:true,&#34;title_color&#34;:&#34;#444444&#34;,&#34;title_font&#34;:&#34;Helvetica Neue&#34;,&#34;title_font_weight&#34;:&#34;bold&#34;}},&#34;post&#34;:{&#34;id&#34;:&#34;82160791768&#34;},&#34;comment&#34;:&#34;&lt;p&gt;いい感じのスライド、作るのむずいので、大体いい感じになるKeynoteテンプレート作った。ここからダウンロードできる。&lt;/p&gt; &lt;ul&gt;&lt;li&gt;&lt;a href=\&#34;https://github.com/sanographix/azusa-keynote\&#34; target=\&#34;_blank\&#34;&gt;https://github.com/sanographix/azusa-keynote&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;&lt;h2&gt;解説&lt;/h2&gt; &lt;p&gt;サンプルも兼ねた解説スライド作った。&lt;/p&gt; &lt;script async=\&#34;\&#34; class=\&#34;speakerdeck-embed\&#34; data-id=\&#34;53527fd0a1b20131ed0a4e04b85186c1\&#34; data-ratio=\&#34;1.33333333333333\&#34; src=\&#34;//speakerdeck.com/assets/embed.js\&#34;&gt;&lt;/script&gt;&lt;p&gt;だいたいスライドに書いたけど要約すると下記のようなことを考えた。&lt;/p&gt; &lt;h2&gt;前提&lt;/h2&gt; &lt;ul&gt;&lt;li&gt;スライド作るの難しい&lt;/li&gt;\n&lt;li&gt;色とか難しい&lt;/li&gt;\n&lt;li&gt;かっこよくしたい&lt;/li&gt;\n&lt;/ul&gt;&lt;h2&gt;Azusaっていうのを作った&lt;/h2&gt; &lt;p&gt;Azusaは、大体いい感じになるKeynoteテンプレートです&lt;/p&gt; &lt;p&gt;&lt;img src=\&#34;https://31.media.tumblr.com/800dad2cb2e1852749766b2763c05d2f/tumblr_inline_n3qt4t0Ttw1qaxsyz.png\&#34; alt=\&#34;\&#34;&gt;&lt;/p&gt; &lt;h3&gt;Azusaの特徴&lt;/h3&gt; &lt;ul&gt;&lt;li&gt;大体いい感じになるカラースキーム&lt;/li&gt;\n&lt;li&gt;…&lt;/li&gt;\n&lt;/ul&gt;&#34;}]}}
+publish: 2014-06-026
+tags:
+title: 大体いい感じになるKeynoteテンプレート「Azusa」作った
+--&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://memo.sanographix.net/post/82160791768&#34;&gt;http://memo.sanographix.net/post/82160791768&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://memo.sanographix.net/post/82160791768&#34;&gt;sanographix-memo&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;いい感じのスライド、作るのむずいので、大体いい感じになるKeynoteテンプレート作った。ここからダウンロードできる。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sanographix/azusa-keynote&#34;&gt;https://github.com/sanographix/azusa-keynote&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;解説:a6a8cabc3e20c88003e93a9d64fc40ad&#34;&gt;解説&lt;/h2&gt;
+
+&lt;p&gt;サンプルも兼ねた解説スライド作った。&lt;/p&gt;
+
+&lt;p&gt;だいたいスライドに書いたけど要約すると下記のようなことを考えた。&lt;/p&gt;
+
+&lt;h2 id=&#34;前提:a6a8cabc3e20c88003e93a9d64fc40ad&#34;&gt;前提&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;スライド作るの難しい&lt;/li&gt;
+&lt;li&gt;色とか難しい&lt;/li&gt;
+&lt;li&gt;かっこよくしたい&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;azusaっていうのを作った:a6a8cabc3e20c88003e93a9d64fc40ad&#34;&gt;Azusaっていうのを作った&lt;/h2&gt;
+
+&lt;p&gt;Azusaは、大体いい感じになるKeynoteテンプレートです&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://31.media.tumblr.com/800dad2cb2e1852749766b2763c05d2f/tumblr_inline_n3qt4t0Ttw1qaxsyz.png&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;azusaの特徴:a6a8cabc3e20c88003e93a9d64fc40ad&#34;&gt;Azusaの特徴&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大体いい感じになるカラースキーム&lt;/li&gt;
+&lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

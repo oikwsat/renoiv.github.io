@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android Studio on Rockin Work</title>
+    <link>http://rockin.work/tags/android-studio/</link>
+    <description>Recent content in Android Studio on Rockin Work</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 28 Jan 2014 15:35:56 +0900</lastBuildDate>
+    <atom:link href="http://rockin.work/tags/android-studio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Android Studioでデフォルト作成プロジェクトでビルドエラー (解決)</title>
+      <link>http://rockin.work/post/2014/06/could-not-find-any-version-that-matches/</link>
+      <pubDate>Tue, 28 Jan 2014 15:35:56 +0900</pubDate>
+      
+      <guid>http://rockin.work/post/2014/06/could-not-find-any-version-that-matches/</guid>
+      <description>&lt;!--
+id: 90135396976
+link: http://renoiv.tumblr.com/post/90135396976/could-not-find-any-version-that-matches
+slug: could-not-find-any-version-that-matches
+date: Sat Jun 28 2014 15:35:56 GMT+0900 (JST)
+raw: {&#34;blog_name&#34;:&#34;renoiv&#34;,&#34;id&#34;:90135396976,&#34;post_url&#34;:&#34;http://renoiv.tumblr.com/post/90135396976/could-not-find-any-version-that-matches&#34;,&#34;slug&#34;:&#34;could-not-find-any-version-that-matches&#34;,&#34;type&#34;:&#34;text&#34;,&#34;date&#34;:&#34;2014-06-28 06:35:56 GMT&#34;,&#34;timestamp&#34;:1403937356,&#34;state&#34;:&#34;published&#34;,&#34;format&#34;:&#34;markdown&#34;,&#34;reblog_key&#34;:&#34;L0IROgdX&#34;,&#34;tags&#34;:[],&#34;short_url&#34;:&#34;http://tmblr.co/Z6KHMy1JyVG9m&#34;,&#34;highlighted&#34;:[],&#34;note_count&#34;:0,&#34;title&#34;:&#34;Could not find any version that matches com.android.support:appcompat-v7:+.&#34;,&#34;body&#34;:&#34;&lt;p&gt;デフォルト作成プロジェクトでビルドするとエラーが出た。&lt;/p&gt;\n\n&lt;p&gt;Failed to refresh Gradle project &amp;#8216;My Application&amp;#8217;\n         Could not find any version that matches com.android.support:appcompat-v7:+.\n         Required by:\n         MyApplication:app:unspecified\n         Please install the Android Support Repository from the Android SDK Manager.&lt;/p&gt;\n\n&lt;p&gt;SDK Managerから Extra -&amp;gt; Android Support Repository をインストールして，\nRebuildして解決。&lt;/p&gt;\n\n&lt;p&gt;IDE: Android Studio 0.5.2&lt;/p&gt;&#34;}
+publish: 2014-06-028
+tags:
+title: Could not find any version that matches com.android.support:appcompat-v7:+.
+--&gt;
+
+&lt;p&gt;デフォルト作成プロジェクトでビルドするとエラーが出た。&lt;/p&gt;
+
+&lt;p&gt;Failed to refresh Gradle project ‘My Application’ Could not find any
+version that matches com.android.support:appcompat-v7:+. Required by:
+MyApplication:app:unspecified Please install the Android Support
+Repository from the Android SDK Manager.&lt;/p&gt;
+
+&lt;p&gt;SDK Managerから Extra -&amp;gt; Android Support Repository
+をインストールして， Rebuildして解決。&lt;/p&gt;
+
+&lt;p&gt;IDE: Android Studio 0.5.2&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
