@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on Rockin Work</title>
+    <link>http://localhost:1313/tags/github/</link>
+    <description>Recent content in Github on Rockin Work</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Fri, 03 Apr 2015 22:50:04 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>create blog on hugo</title>
+      <link>http://localhost:1313/post/2015/04/create-blog-on-hugo/</link>
+      <pubDate>Fri, 03 Apr 2015 22:50:04 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/04/create-blog-on-hugo/</guid>
+      <description>
+
+&lt;h1 id=&#34;背景:68ae8a377ac9529a32dcfdedbcdf6b96&#34;&gt;背景&lt;/h1&gt;
+
+&lt;p&gt;今まで何度かブログを作ってきたが，改めて独自ドメインを取って
+ブログサイトを構築した。&lt;/p&gt;
+
+&lt;p&gt;35最定年説よろしく，最近もっぱらマネジメント業務が増えていて
+コードに触れる機会がめっきり減ってしまっていて危機感を持っていて
+強制的にアウトプットする場をつくろうということが主な目的。&lt;/p&gt;
+
+&lt;h1 id=&#34;ツールの選定基準:68ae8a377ac9529a32dcfdedbcdf6b96&#34;&gt;ツールの選定基準&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;サーバ運用はしない&lt;/li&gt;
+&lt;li&gt;ランニングコストは掛けたくない&lt;/li&gt;
+&lt;li&gt;ブログ記事を書くために，技術要素が含まれる (vimやshなど)&lt;/li&gt;
+&lt;li&gt;Markdownで書きたい&lt;/li&gt;
+&lt;li&gt;使っていて楽しい&lt;/li&gt;
+&lt;li&gt;独自ドメイン&lt;/li&gt;
+&lt;li&gt;アウトプットするモチベーションを維持しやすいしくみ
+-&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;試したツール:68ae8a377ac9529a32dcfdedbcdf6b96&#34;&gt;試したツール&lt;/h1&gt;
+
+&lt;h2 id=&#34;1-jekyll-github-page-お試し:68ae8a377ac9529a32dcfdedbcdf6b96&#34;&gt;1. Jekyll + Github Page お試し&lt;/h2&gt;
+
+&lt;p&gt;まずは，&lt;a href=&#34;http://jekyllrb-ja.github.io/&#34;&gt;Jekyll&lt;/a&gt;を試してみた。
++ サイトのDOM構造をゼロから作っていけて，作り始めは楽しい
++ サイトをリリースするまでに，頑張らなければならない量が多く，心折れてくる&lt;/p&gt;
+
+&lt;h2 id=&#34;hugo-github-page-お試し:68ae8a377ac9529a32dcfdedbcdf6b96&#34;&gt;Hugo + Github Page お試し&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
