@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Parse on Rockin Work</title>
+    <link>http://rockin.work/categories/parse/</link>
+    <description>Recent content in Parse on Rockin Work</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Fri, 08 May 2015 21:28:01 +0900</lastBuildDate>
+    <atom:link href="http://rockin.work/categories/parse/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Parse.comにcsvファイルをインポートしたときのメモ</title>
+      <link>http://rockin.work/post/2015/05/parse-import-csv/</link>
+      <pubDate>Fri, 08 May 2015 21:28:01 +0900</pubDate>
+      
+      <guid>http://rockin.work/post/2015/05/parse-import-csv/</guid>
+      <description>
+
+&lt;h1 id=&#34;概要:68f3a6d32cf366224be57446c18e5364&#34;&gt;概要&lt;/h1&gt;
+
+&lt;p&gt;SQLite3のデータをParse.comにcsvファイル経由で移行しようとした時に少しハマったのでメモしておく。&lt;/p&gt;
+
+&lt;h1 id=&#34;ハマった点:68f3a6d32cf366224be57446c18e5364&#34;&gt;ハマった点&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;column nameは必須
+
+&lt;ul&gt;
+&lt;li&gt;export時に with header オプションを指定&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;idというcolumn名のデータはobject idで上書きされる
+
+&lt;ul&gt;
+&lt;li&gt;table_id というcolumn nameにrenameして対応した&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;作成日時と更新日時のデータを移行することができない？
+
+&lt;ul&gt;
+&lt;li&gt;Parse側で自動的にcreatedAtとupdatedAtというcolumnが作られる&lt;/li&gt;
+&lt;li&gt;insdateとupdadateというcolumn nameで作っていたので，column nameをrenameしてみるも別カラム名となって追加されてしまう&lt;/li&gt;
+&lt;li&gt;ということで断念&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;import後にcolumn orderがnameでsortされる
+
+&lt;ul&gt;
+&lt;li&gt;Parseの管理画面上でdrag &amp;amp; drop で order を変更できる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

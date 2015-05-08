@@ -6,8 +6,49 @@
     <description>Recent content in Posts on Rockin Work</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 08 Apr 2015 00:41:23 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2015 21:28:01 +0900</lastBuildDate>
     <atom:link href="http://rockin.work/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Parse.comにcsvファイルをインポートしたときのメモ</title>
+      <link>http://rockin.work/post/2015/05/parse-import-csv/</link>
+      <pubDate>Fri, 08 May 2015 21:28:01 +0900</pubDate>
+      
+      <guid>http://rockin.work/post/2015/05/parse-import-csv/</guid>
+      <description>
+
+&lt;h1 id=&#34;概要:68f3a6d32cf366224be57446c18e5364&#34;&gt;概要&lt;/h1&gt;
+
+&lt;p&gt;SQLite3のデータをParse.comにcsvファイル経由で移行しようとした時に少しハマったのでメモしておく。&lt;/p&gt;
+
+&lt;h1 id=&#34;ハマった点:68f3a6d32cf366224be57446c18e5364&#34;&gt;ハマった点&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;column nameは必須
+
+&lt;ul&gt;
+&lt;li&gt;export時に with header オプションを指定&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;idというcolumn名のデータはobject idで上書きされる
+
+&lt;ul&gt;
+&lt;li&gt;table_id というcolumn nameにrenameして対応した&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;作成日時と更新日時のデータを移行することができない？
+
+&lt;ul&gt;
+&lt;li&gt;Parse側で自動的にcreatedAtとupdatedAtというcolumnが作られる&lt;/li&gt;
+&lt;li&gt;insdateとupdadateというcolumn nameで作っていたので，column nameをrenameしてみるも別カラム名となって追加されてしまう&lt;/li&gt;
+&lt;li&gt;ということで断念&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;import後にcolumn orderがnameでsortされる
+
+&lt;ul&gt;
+&lt;li&gt;Parseの管理画面上でdrag &amp;amp; drop で order を変更できる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2015-Apr発売の技術書チェックリスト</title>
@@ -705,39 +746,6 @@ title: 良い上司の条件、ダメな上司の条件 | sogitani.baigie.blog
 9：良い上司は、絶対に諦めない。 10：良い上司は、人間力が高い。
 11：良い上司は、正しく評価をする。 12：良い上司は、組織全体で考える。
 13：良い上司は、未来に向けて行動する。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>reblog: オンプレミスから AWS に移行して変えた 3 つのこと</title>
-      <link>http://rockin.work/post/2014/08/reblog-aws-3/</link>
-      <pubDate>Tue, 26 Aug 2014 22:23:06 +0900</pubDate>
-      
-      <guid>http://rockin.work/post/2014/08/reblog-aws-3/</guid>
-      <description>
-
-&lt;!--
-id: 95821887916
-link: http://renoiv.tumblr.com/post/95821887916/aws-3
-slug: aws-3
-date: Tue Aug 26 2014 22:23:06 GMT+0900 (JST)
-raw: {&#34;blog_name&#34;:&#34;renoiv&#34;,&#34;id&#34;:95821887916,&#34;post_url&#34;:&#34;http://renoiv.tumblr.com/post/95821887916/aws-3&#34;,&#34;slug&#34;:&#34;aws-3&#34;,&#34;type&#34;:&#34;link&#34;,&#34;date&#34;:&#34;2014-08-26 13:23:06 GMT&#34;,&#34;timestamp&#34;:1409059386,&#34;state&#34;:&#34;published&#34;,&#34;format&#34;:&#34;markdown&#34;,&#34;reblog_key&#34;:&#34;GjcRJR7J&#34;,&#34;tags&#34;:[],&#34;short_url&#34;:&#34;http://tmblr.co/Z6KHMy1PFRVci&#34;,&#34;highlighted&#34;:[],&#34;bookmarklet&#34;:true,&#34;note_count&#34;:0,&#34;title&#34;:&#34;オンプレミスから AWS に移行して変えた 3 つのこと&#34;,&#34;url&#34;:&#34;http://blog.manabusakai.com/2014/08/change-to-the-aws-mind/&#34;,&#34;description&#34;:&#34;&lt;p&gt;・稼働中のサーバに変更は加えない\n・運用手順書は作らない\n・長時間稼働したサーバはリスクと見なす&lt;/p&gt;\n\n&lt;p&gt;”運用手順書は作らない”にグッときた&lt;/p&gt;&#34;}
-publish: 2014-08-026
-tags:
-title: オンプレミスから AWS に移行して変えた 3 つのこと
---&gt;
-
-&lt;h1 id=&#34;オンプレミスから-aws-に移行して変えた-3-つのこと:a309931dadb8af5a6c840f7af540b70d&#34;&gt;オンプレミスから AWS に移行して変えた 3 つのこと&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.manabusakai.com/2014/08/change-to-the-aws-mind/&#34;&gt;http://blog.manabusakai.com/2014/08/change-to-the-aws-mind/&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;稼働中のサーバに変更は加えない&lt;/li&gt;
-&lt;li&gt;運用手順書は作らない&lt;/li&gt;
-&lt;li&gt;長時間稼働したサーバはリスクと見なす&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;”運用手順書は作らない”にグッときた&lt;/p&gt;
 </description>
     </item>
     
