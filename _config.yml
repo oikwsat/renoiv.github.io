@@ -1,0 +1,19 @@
+
+author:
+  name: renoiv
+  email: renoiv@gmail.com
+  github: renoiv
+  twitter: renoiv
+
+title: Rockin Work
+google_analytics_id: UA-60584926-1
+
+highlighter: pygments
+markdown: redcarpet
+
+exclude:
+- Gemfile
+- Gemfile.lock
+
+timezone: Asia/Tokyo date
+encoding: utf-8
