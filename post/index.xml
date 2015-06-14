@@ -6,8 +6,42 @@
     <description>Recent content in Posts on Rockin Work</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 08 May 2015 21:28:01 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2015 18:53:47 +0900</lastBuildDate>
     <atom:link href="http://rockin.work/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2015-May発売の技術書チェックリスト</title>
+      <link>http://rockin.work/post/2015/05/techbooks/</link>
+      <pubDate>Sun, 31 May 2015 18:53:47 +0900</pubDate>
+      
+      <guid>http://rockin.work/post/2015/05/techbooks/</guid>
+      <description>
+
+&lt;h2 id=&#34;和書:0fa32b376cc41843ff7ab22221e023d3&#34;&gt;和書&lt;/h2&gt;
+
+&lt;h3 id=&#34;シェルプログラミング実用テクニック:0fa32b376cc41843ff7ab22221e023d3&#34;&gt;シェルプログラミング実用テクニック&lt;/h3&gt;
+
+&lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px;&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00XKU53U4/renoiswebsite-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/51QHNmyaoxL._SL160_.jpg&#34; alt=&#34;シェルプログラミング実用テクニック&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%; margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00XKU53U4/renoiswebsite-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;シェルプログラミング実用テクニック&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 15.06.14&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;技術評論社 (2015-05-15)&lt;br /&gt;売り上げランキング: 637&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left;&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00XKU53U4/renoiswebsite-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2015-05-15 416p シェルスクリプトのリファレンス用に&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;awk実践入門:0fa32b376cc41843ff7ab22221e023d3&#34;&gt;AWK実践入門&lt;/h3&gt;
+
+&lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px;&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00YA3VS2C/renoiswebsite-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/51HGvzhDwtL._SL160_.jpg&#34; alt=&#34;AWK実践入門&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%; margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00YA3VS2C/renoiswebsite-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;AWK実践入門&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 15.06.14&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;技術評論社 (2015-05-26)&lt;br /&gt;売り上げランキング: 3,563&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left;&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00YA3VS2C/renoiswebsite-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2015-05-26 416p AWKのリファレンス用に&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;laravelエキスパート養成読本-モダンな開発を実現するphpフレームワーク-software-design-plus:0fa32b376cc41843ff7ab22221e023d3&#34;&gt;Laravelエキスパート養成読本&lt;a href=&#34;Software Design plus&#34;&gt;モダンな開発を実現するPHPフレームワーク！&lt;/a&gt;&lt;/h3&gt;
+
+&lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px;&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4774173134/renoiswebsite-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/61tpe696zdL._SL160_.jpg&#34; alt=&#34;Laravelエキスパート養成読本[モダンな開発を実現するPHPフレームワーク！] (Software Design plus)&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%; margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4774173134/renoiswebsite-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Laravelエキスパート養成読本[モダンな開発を実現するPHPフレームワーク！] (Software Design plus)&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 15.06.14&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;川瀬 裕久 古川 文生 松尾 大 竹澤 有貴 小山 哲志 新原 雅司 &lt;br /&gt;技術評論社 &lt;br /&gt;売り上げランキング: 98,162&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left;&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4774173134/renoiswebsite-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2015-04-21 156p モダンPHPのキャッチアップ用に&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Parse.comにcsvファイルをインポートしたときのメモ</title>
@@ -716,36 +750,6 @@ title: 2014-Sep発売の技術書チェックリスト
 &lt;/h3&gt;
 
 &lt;p&gt;184p. Herokuを試したいと思っていたので入門用に&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>reblog: 良い上司の条件、ダメな上司の条件 | sogitani.baigie.blog</title>
-      <link>http://rockin.work/post/2014/09/sogitani-baigie-blog/</link>
-      <pubDate>Mon, 01 Sep 2014 14:19:11 +0900</pubDate>
-      
-      <guid>http://rockin.work/post/2014/09/sogitani-baigie-blog/</guid>
-      <description>&lt;!--
-id: 96332880936
-link: http://renoiv.tumblr.com/post/96332880936/sogitani-baigie-blog
-slug: sogitani-baigie-blog
-date: Mon Sep 01 2014 14:19:11 GMT+0900 (JST)
-raw: {&#34;blog_name&#34;:&#34;renoiv&#34;,&#34;id&#34;:96332880936,&#34;post_url&#34;:&#34;http://renoiv.tumblr.com/post/96332880936/sogitani-baigie-blog&#34;,&#34;slug&#34;:&#34;sogitani-baigie-blog&#34;,&#34;type&#34;:&#34;link&#34;,&#34;date&#34;:&#34;2014-09-01 05:19:11 GMT&#34;,&#34;timestamp&#34;:1409548751,&#34;state&#34;:&#34;published&#34;,&#34;format&#34;:&#34;markdown&#34;,&#34;reblog_key&#34;:&#34;s6vcMWCC&#34;,&#34;tags&#34;:[],&#34;short_url&#34;:&#34;http://tmblr.co/Z6KHMy1Pjunme&#34;,&#34;highlighted&#34;:[],&#34;bookmarklet&#34;:true,&#34;note_count&#34;:0,&#34;title&#34;:&#34;良い上司の条件、ダメな上司の条件 | sogitani.baigie.blog&#34;,&#34;url&#34;:&#34;http://baigie.me/sogitani/2014/08/good-leader-bad-leader/&#34;,&#34;description&#34;:&#34;&lt;p&gt;1：良い上司は、部下を育てる。\n2：良い上司は、部下とよく話す。\n3：良い上司は、上手に褒める。\n4：良い上司は、上手に叱る。\n5：良い上司は、部下の感情を大事にする。\n6：良い上司は、部下に仕事を任せる。\n7：良い上司は、部下の模範となる。\n8：良い上司は、トラブルこそ自分の出番と考える。\n9：良い上司は、絶対に諦めない。\n10：良い上司は、人間力が高い。\n11：良い上司は、正しく評価をする。\n12：良い上司は、組織全体で考える。\n13：良い上司は、未来に向けて行動する。&lt;/p&gt;&#34;}
-publish: 2014-09-01
-tags:
-title: 良い上司の条件、ダメな上司の条件 | sogitani.baigie.blog
---&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://baigie.me/sogitani/2014/08/good-leader-bad-leader/&#34;&gt;http://baigie.me/sogitani/2014/08/good-leader-bad-leader/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;1：良い上司は、部下を育てる。 2：良い上司は、部下とよく話す。
-3：良い上司は、上手に褒める。 4：良い上司は、上手に叱る。
-5：良い上司は、部下の感情を大事にする。
-6：良い上司は、部下に仕事を任せる。 7：良い上司は、部下の模範となる。
-8：良い上司は、トラブルこそ自分の出番と考える。
-9：良い上司は、絶対に諦めない。 10：良い上司は、人間力が高い。
-11：良い上司は、正しく評価をする。 12：良い上司は、組織全体で考える。
-13：良い上司は、未来に向けて行動する。&lt;/p&gt;
 </description>
     </item>
     

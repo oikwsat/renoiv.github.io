@@ -6,8 +6,42 @@
     <description>Recent content in Techbook on Rockin Work</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 08 Apr 2015 00:41:23 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2015 18:53:47 +0900</lastBuildDate>
     <atom:link href="http://rockin.work/tags/techbook/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2015-May発売の技術書チェックリスト</title>
+      <link>http://rockin.work/post/2015/05/techbooks/</link>
+      <pubDate>Sun, 31 May 2015 18:53:47 +0900</pubDate>
+      
+      <guid>http://rockin.work/post/2015/05/techbooks/</guid>
+      <description>
+
+&lt;h2 id=&#34;和書:0fa32b376cc41843ff7ab22221e023d3&#34;&gt;和書&lt;/h2&gt;
+
+&lt;h3 id=&#34;シェルプログラミング実用テクニック:0fa32b376cc41843ff7ab22221e023d3&#34;&gt;シェルプログラミング実用テクニック&lt;/h3&gt;
+
+&lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px;&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00XKU53U4/renoiswebsite-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/51QHNmyaoxL._SL160_.jpg&#34; alt=&#34;シェルプログラミング実用テクニック&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%; margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00XKU53U4/renoiswebsite-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;シェルプログラミング実用テクニック&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 15.06.14&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;技術評論社 (2015-05-15)&lt;br /&gt;売り上げランキング: 637&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left;&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00XKU53U4/renoiswebsite-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2015-05-15 416p シェルスクリプトのリファレンス用に&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;awk実践入門:0fa32b376cc41843ff7ab22221e023d3&#34;&gt;AWK実践入門&lt;/h3&gt;
+
+&lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px;&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00YA3VS2C/renoiswebsite-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/51HGvzhDwtL._SL160_.jpg&#34; alt=&#34;AWK実践入門&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%; margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00YA3VS2C/renoiswebsite-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;AWK実践入門&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 15.06.14&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;技術評論社 (2015-05-26)&lt;br /&gt;売り上げランキング: 3,563&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left;&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00YA3VS2C/renoiswebsite-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2015-05-26 416p AWKのリファレンス用に&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;laravelエキスパート養成読本-モダンな開発を実現するphpフレームワーク-software-design-plus:0fa32b376cc41843ff7ab22221e023d3&#34;&gt;Laravelエキスパート養成読本&lt;a href=&#34;Software Design plus&#34;&gt;モダンな開発を実現するPHPフレームワーク！&lt;/a&gt;&lt;/h3&gt;
+
+&lt;div class=&#34;amazlet-box&#34; style=&#34;margin-bottom:0px;&#34;&gt;&lt;div class=&#34;amazlet-image&#34; style=&#34;float:left;margin:0px 12px 1px 0px;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4774173134/renoiswebsite-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/61tpe696zdL._SL160_.jpg&#34; alt=&#34;Laravelエキスパート養成読本[モダンな開発を実現するPHPフレームワーク！] (Software Design plus)&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-info&#34; style=&#34;line-height:120%; margin-bottom: 10px&#34;&gt;&lt;div class=&#34;amazlet-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4774173134/renoiswebsite-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Laravelエキスパート養成読本[モダンな開発を実現するPHPフレームワーク！] (Software Design plus)&lt;/a&gt;&lt;div class=&#34;amazlet-powered-date&#34; style=&#34;font-size:80%;margin-top:5px;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://www.amazlet.com/&#34; title=&#34;amazlet&#34; target=&#34;_blank&#34;&gt;amazlet&lt;/a&gt; at 15.06.14&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-detail&#34;&gt;川瀬 裕久 古川 文生 松尾 大 竹澤 有貴 小山 哲志 新原 雅司 &lt;br /&gt;技術評論社 &lt;br /&gt;売り上げランキング: 98,162&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-sub-info&#34; style=&#34;float: left;&#34;&gt;&lt;div class=&#34;amazlet-link&#34; style=&#34;margin-top: 5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4774173134/renoiswebsite-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;Amazon.co.jpで詳細を見る&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;amazlet-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2015-04-21 156p モダンPHPのキャッチアップ用に&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2015-Apr発売の技術書チェックリスト</title>
