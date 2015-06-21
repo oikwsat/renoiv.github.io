@@ -50,6 +50,22 @@
                         <div class="li-article">
                             <article>
     <header>
+        <h2><a href="http://rockin.work/post/2015/06/vagrant-install/">Vagrantのインストールメモ </a></h2>
+        <time class="li-article-date">Sunday, June 21, 2015</time>
+    </header>
+    <section class="li-article-section">
+        インストール前に古いVagrantがインストール済みだったのでアンインストール $ sudo rm -rf /Applications/Vagrant $ sudo rm -rf /usr/bin/vagrant $ sudo pkgutil --forget com.vagrant.vagrant インストーラでインストール後バージョン確認 $ vagrant --version Vagrant 1.7.2 http://www.vagrantbox.es/ でcentos6.5を取得 $ vagrant box add centos65 \ https://github.com/2creatives/vagrant-centos/releases/download/v6.5.3/centos65-x86_64-20140116.box box add時にエラー発生 Vagrant failed to initialize at a very early stage: The home directory you specified is not accessible. The home directory that Vagrant uses must be both readable and writable. You specified: $HOME/.vagrant.d 以前にインストールした時の残骸なのでフォルダごと削除する $ rm -rf ~/.vagrant.d/ 再度boxを追加 $ vagrant box add centos65 https://github.com/2creatives/vagrant-centos/releases/download/v6.5.3/centos65-x86_64-20140116.box ==&gt; box: Adding box 'centos65' (v0) for provider: box: Downloading: https://github.com/2creatives/vagrant-centos/releases/download/v6.5.3/centos65-x86_64-20140116.box ==&gt; box: Successfully added box 'centos65' (v0) for 'virtualbox'!
+    </section>
+    <footer>
+        <a href='http://rockin.work/post/2015/06/vagrant-install/'>More</a>
+    </footer>
+</article>
+
+                        </div>
+                    
+                        <div class="li-article">
+                            <article>
+    <header>
         <h2><a href="http://rockin.work/post/2015/05/techbooks/">2015-May発売の技術書チェックリスト </a></h2>
         <time class="li-article-date">Sunday, May 31, 2015</time>
     </header>
@@ -186,22 +202,6 @@
     </section>
     <footer>
         <a href='http://rockin.work/post/2015/01/ship-log/'>More</a>
-    </footer>
-</article>
-
-                        </div>
-                    
-                        <div class="li-article">
-                            <article>
-    <header>
-        <h2><a href="http://rockin.work/post/2014/11/reblog-wazanova/">reblog: エンジニアマネージャー論と学びを抽出する努力を続けること -  ワザノバ | wazanova </a></h2>
-        <time class="li-article-date">Monday, December 15, 2014</time>
-    </header>
-    <section class="li-article-section">
-        エンジニアからマネージャに転身するために。 \n\n「コードを書かなくなったマネージャーは恐ろしく早く、正しい技術的判断ができなくなるので、チーム全体の進捗をブロックしないかたちで開発に参加すべき。」 "} publish: 2014-11-012 tags: title: エンジニアマネージャー論と学びを抽出する努力を続けること - ワザノバ | wazanova -- http://wazanova.jp/items/1574 エンジニアからマネージャに転身するために。 「コードを書かなくなったマネージャーは恐ろしく早く、正しい技術的判断ができなくなるので、チーム全体の進捗をブロックしないかたちで開発に参加すべき。」
-    </section>
-    <footer>
-        <a href='http://rockin.work/post/2014/11/reblog-wazanova/'>More</a>
     </footer>
 </article>
 
