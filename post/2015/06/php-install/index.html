@@ -5,7 +5,7 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 
-        <title>Memoized Recursion: プログラマの区分 &middot; Rockin Work</title>
+        <title>PHPのインストールメモ &middot; Rockin Work</title>
         <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' type='text/css'>
         <link rel="stylesheet" href="http://rockin.work//libraries/normalize.3.0.1.css" />
         <link rel="stylesheet" href="http://rockin.work//css/liquorice.css" />
@@ -59,41 +59,249 @@
             <div class="sixteen columns">
                 <article class="li-article">
                     <header class="li-article-header">
-                        <h1 class="li-article-title">Memoized Recursion: プログラマの区分</h1>
+                        <h1 class="li-article-title">PHPのインストールメモ</h1>
                         <span class="li-article-taxonomies">
                             
                                 Posted in
                                 
-                                    <a href="http://rockin.work//categories/reblog">reblog</a>
+                                    <a href="http://rockin.work//categories/develop">develop</a>
                                 
                             
 
                             
                                 with tags
                                 
-                                    <a href="http://rockin.work//tags/reblog">reblog</a>
+                                    <a href="http://rockin.work//tags/php">php</a>
+                                
+                                    <a href="http://rockin.work//tags/memo">memo</a>
                                 
                             
                         </span>
                          - 
-                        <time class="li-article-date">Friday, August 3, 2012</time>
+                        <time class="li-article-date">Tuesday, June 30, 2015</time>
                     </header>
                     <section>
                         
 
-<p><a href="http://fumieval.tumblr.com/post/28324791101">http://fumieval.tumblr.com/post/28324791101</a></p>
+<h3 id="使用環境:c8c739a65822ac1fb835dd1537ebb25e">使用環境</h3>
 
-<p><a href="http://fumieval.tumblr.com/post/28324791101">fumieval</a>:</p>
+<ul>
+<li>CentOS 6.5</li>
+<li>Vagrant 1.7.2</li>
+</ul>
 
-<blockquote>
-<p>世の中には、24種類のプログラマがある。<strong>ソルジャー</strong>、<strong>マーシナリー</strong>、<strong>ガーディアン</strong>、<strong>ナイト</strong>、<strong>レンジャー</strong>、<strong>ドラグーン</strong>、<strong>サモナー</strong>、<strong>グラディエーター</strong>、<strong>ブラックスミス</strong>、<strong>エクソシスト</strong>、<strong>サイエンティスト</strong>、<strong>エンチャンター</strong>、<strong>ウィザード</strong>、<strong>アルケミスト</strong>、<strong>エレメンタリスト</strong>(←New!!)、<strong>セイント</strong>、<strong>ソーサラー</strong>、<strong>ウォーロック</strong>、<strong>ネクロマンサー</strong>、<strong>シャーマン</strong>、<strong>ハーミット</strong>、<strong>バーサーカー</strong>、<strong>ソーマタージ</strong>、<strong>ノービス</strong>だ。</p>
+<hr />
 
-<h2 id="ソルジャー:af78ae6800e733b37a4a0fac71dab836">ソルジャー</h2>
+<p>必要パッケージをインストール</p>
 
-<p>技術力は並みの、平凡なプログラマ。</p>
+<pre><code>$ sudo yum install -y git re2c libxml2-devel openssl-devel readline-devel libcurl-devel libjpeg-turbo-devel libpng-devel libmcrypt-devel libtidy-devel libxslt-devel
+</code></pre>
 
-<p>得意な言語: C、Java、C++、Objective…</p>
-</blockquote>
+<p>phpenvをインストール</p>
+
+<pre><code>$ curl https://raw.githubusercontent.com/CHH/phpenv/master/bin/phpenv-install.sh | sh
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  3128  100  3128    0     0    585      0  0:00:05  0:00:05 --:--:-- 16463
+Installing phpenv in /home/vagrant/.phpenv
+remote: Counting objects: 2065, done.
+remote: Total 2065 (delta 0), reused 0 (delta 0), pack-reused 2065
+Receiving objects: 100% (2065/2065), 350.18 KiB | 309 KiB/s, done.
+Resolving deltas: 100% (1280/1280), done.
+Success.
+
+export PATH=&quot;/home/vagrant/.phpenv/bin:$PATH&quot;
+eval &quot;$(phpenv init -)&quot;
+
+Add above line at the end of your ~/.bashrc and restart your shell to use phpenv.
+</code></pre>
+
+<p>phpenvを実行できるようにする</p>
+
+<pre><code>$ echo 'export PATH=&quot;/home/vagrant/.phpenv/bin:$PATH&quot;' &gt;&gt; ~/.bash_profile
+$ echo 'eval &quot;$(phpenv init -)&quot;' &gt;&gt; ~/.bash_profile
+$ source ~/.bash_profile
+
+$ phpenv -v
+rbenv 0.4.0-151-g83ac0fb
+</code></pre>
+
+<p>php-buildをインストール</p>
+
+<pre><code>$ git clone https://github.com/php-build/php-build.git ~/.phpenv/plugins/php-build
+$ phpenv install -l
+Available versions:
+ 5.2.17
+ 5.3.10
+ 5.3.11
+ 5.3.12
+ 5.3.13
+ 5.3.14
+ 5.3.15
+ 5.3.16
+ 5.3.17
+ 5.3.18
+ 5.3.19
+ 5.3.2
+ 5.3.20
+ 5.3.21
+ 5.3.22
+ 5.3.23
+ 5.3.24
+ 5.3.25
+ 5.3.26
+ 5.3.27
+ 5.3.28
+ 5.3.29
+ 5.3.3
+ 5.3.6
+ 5.3.8
+ 5.3.9
+ 5.4.0
+ 5.4.1
+ 5.4.10
+ 5.4.11
+ 5.4.12
+ 5.4.13
+ 5.4.14
+ 5.4.15
+ 5.4.16
+ 5.4.17
+ 5.4.18
+ 5.4.19
+ 5.4.2
+ 5.4.20
+ 5.4.21
+ 5.4.22
+ 5.4.23
+ 5.4.24
+ 5.4.25
+ 5.4.26
+ 5.4.27
+ 5.4.28
+ 5.4.29
+ 5.4.3
+ 5.4.30
+ 5.4.31
+ 5.4.32
+ 5.4.33
+ 5.4.34
+ 5.4.35
+ 5.4.36
+ 5.4.37
+ 5.4.38
+ 5.4.39
+ 5.4.4
+ 5.4.40
+ 5.4.41
+ 5.4.42
+ 5.4.5
+ 5.4.6
+ 5.4.7
+ 5.4.8
+ 5.4.9
+ 5.4snapshot
+ 5.5.0
+ 5.5.1
+ 5.5.10
+ 5.5.11
+ 5.5.12
+ 5.5.13
+ 5.5.14
+ 5.5.15
+ 5.5.16
+ 5.5.17
+ 5.5.18
+ 5.5.19
+ 5.5.2
+ 5.5.20
+ 5.5.21
+ 5.5.22
+ 5.5.23
+ 5.5.24
+ 5.5.25
+ 5.5.26
+ 5.5.3
+ 5.5.4
+ 5.5.5
+ 5.5.6
+ 5.5.7
+ 5.5.8
+ 5.5.9
+ 5.5snapshot
+ 5.6.0
+ 5.6.1
+ 5.6.10
+ 5.6.2
+ 5.6.3
+ 5.6.4
+ 5.6.5
+ 5.6.6
+ 5.6.7
+ 5.6.8
+ 5.6.9
+ 5.6snapshot
+ 7.0.0alpha1
+ master
+</code></pre>
+
+<p>現時点で最新の5.6.9をインストールする。
+(configureはデフォルトにしておく)</p>
+
+<pre><code>$ phpenv install 5.6.9
+[Info]: Loaded extension plugin
+[Info]: Loaded apc Plugin.
+[Info]: Loaded composer Plugin.
+[Info]: Loaded pyrus Plugin.
+[Info]: Loaded uprofiler Plugin.
+[Info]: Loaded xdebug Plugin.
+[Info]: Loaded xhprof Plugin.
+[Info]: php.ini-production gets used as php.ini
+[Info]: Building 5.6.9 into /home/vagrant/.phpenv/versions/5.6.9
+
+
+
+[Pyrus]: Downloading from http://pear2.php.net/pyrus.phar
+[Pyrus]: Installing executable in /home/vagrant/.phpenv/versions/5.6.9/bin/pyrus
+[xdebug]: Installing version 2.3.2
+[xdebug]: Compiling xdebug in /tmp/php-build/source/xdebug-2.3.2
+[xdebug]: Installing xdebug configuration in /home/vagrant/.phpenv/versions/5.6.9/etc/conf.d/xdebug.ini
+[xdebug]: Cleaning up.
+[Info]: Enabling Opcache...
+
+[Info]: The Log File is not empty, but the Build did not fail. Maybe just warnings got logged. You can review the log in /tmp/php-build.5.6.9.20150624001503.log
+[Success]: Built 5.6.9 successfully.
+</code></pre>
+
+<p>インストール済みのphpバージョンを確認する</p>
+
+<pre><code>$ phpenv versions
+5.6.9
+</code></pre>
+
+<p>インストールしたPHPのバージョンを確認する</p>
+
+<pre><code>$ php -v
+rbenv: version `system' is not installed
+</code></pre>
+
+<p>エラーが発生したが，下記コマンドを実行していなかったためなので実行する</p>
+
+<pre><code>$ phpenv global 5.6.9
+</code></pre>
+
+<p>再度確認する</p>
+
+<pre><code>$ php -v
+PHP 5.6.9 (cli) (built: Jun 24 2015 00:27:08)
+Copyright (c) 1997-2015 The PHP Group
+Zend Engine v2.6.0, Copyright (c) 1998-2015 Zend Technologies
+    with Zend OPcache v7.0.4-dev, Copyright (c) 1999-2015, by Zend Technologies
+    with Xdebug v2.3.2, Copyright (c) 2002-2015, by Derick Rethans
+</code></pre>
+
+<p>無事，PHPのインストールが完了しました ;-)</p>
 
                     </section>
                 </article>
@@ -143,8 +351,7 @@
             <div class="eight columns">
                 <div class="li-pagination-previous">
                     
-                        Later article<br />
-                        <a href="http://rockin.work/post/2014/06/reblog-keynote-azusa/"> reblog: 大体いい感じになるKeynoteテンプレート「Azusa」作った</a>
+                        &nbsp;
                     
                 </div>
             </div>
@@ -152,7 +359,7 @@
                 <div class="li-pagination-next">
                     
                         Older article<br />
-                        <a href="http://rockin.work/post/2012/07/otosan/"> お父さん 僕が守るけん／片山君 最優秀賞-マイタウン広島</a>
+                        <a href="http://rockin.work/post/2015/06/vagrant-install/"> Vagrantのインストールメモ</a>
                     
                 </div>
             </div>

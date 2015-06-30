@@ -6,8 +6,238 @@
     <description>Recent content on Rockin Work</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 21 Jun 2015 23:06:33 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2015 21:13:36 +0900</lastBuildDate>
     <atom:link href="http://rockin.work/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>PHPのインストールメモ</title>
+      <link>http://rockin.work/post/2015/06/php-install/</link>
+      <pubDate>Tue, 30 Jun 2015 21:13:36 +0900</pubDate>
+      
+      <guid>http://rockin.work/post/2015/06/php-install/</guid>
+      <description>
+
+&lt;h3 id=&#34;使用環境:c8c739a65822ac1fb835dd1537ebb25e&#34;&gt;使用環境&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CentOS 6.5&lt;/li&gt;
+&lt;li&gt;Vagrant 1.7.2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;必要パッケージをインストール&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ sudo yum install -y git re2c libxml2-devel openssl-devel readline-devel libcurl-devel libjpeg-turbo-devel libpng-devel libmcrypt-devel libtidy-devel libxslt-devel
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;phpenvをインストール&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ curl https://raw.githubusercontent.com/CHH/phpenv/master/bin/phpenv-install.sh | sh
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  3128  100  3128    0     0    585      0  0:00:05  0:00:05 --:--:-- 16463
+Installing phpenv in /home/vagrant/.phpenv
+remote: Counting objects: 2065, done.
+remote: Total 2065 (delta 0), reused 0 (delta 0), pack-reused 2065
+Receiving objects: 100% (2065/2065), 350.18 KiB | 309 KiB/s, done.
+Resolving deltas: 100% (1280/1280), done.
+Success.
+
+export PATH=&amp;quot;/home/vagrant/.phpenv/bin:$PATH&amp;quot;
+eval &amp;quot;$(phpenv init -)&amp;quot;
+
+Add above line at the end of your ~/.bashrc and restart your shell to use phpenv.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;phpenvを実行できるようにする&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ echo &#39;export PATH=&amp;quot;/home/vagrant/.phpenv/bin:$PATH&amp;quot;&#39; &amp;gt;&amp;gt; ~/.bash_profile
+$ echo &#39;eval &amp;quot;$(phpenv init -)&amp;quot;&#39; &amp;gt;&amp;gt; ~/.bash_profile
+$ source ~/.bash_profile
+
+$ phpenv -v
+rbenv 0.4.0-151-g83ac0fb
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;php-buildをインストール&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/php-build/php-build.git ~/.phpenv/plugins/php-build
+$ phpenv install -l
+Available versions:
+ 5.2.17
+ 5.3.10
+ 5.3.11
+ 5.3.12
+ 5.3.13
+ 5.3.14
+ 5.3.15
+ 5.3.16
+ 5.3.17
+ 5.3.18
+ 5.3.19
+ 5.3.2
+ 5.3.20
+ 5.3.21
+ 5.3.22
+ 5.3.23
+ 5.3.24
+ 5.3.25
+ 5.3.26
+ 5.3.27
+ 5.3.28
+ 5.3.29
+ 5.3.3
+ 5.3.6
+ 5.3.8
+ 5.3.9
+ 5.4.0
+ 5.4.1
+ 5.4.10
+ 5.4.11
+ 5.4.12
+ 5.4.13
+ 5.4.14
+ 5.4.15
+ 5.4.16
+ 5.4.17
+ 5.4.18
+ 5.4.19
+ 5.4.2
+ 5.4.20
+ 5.4.21
+ 5.4.22
+ 5.4.23
+ 5.4.24
+ 5.4.25
+ 5.4.26
+ 5.4.27
+ 5.4.28
+ 5.4.29
+ 5.4.3
+ 5.4.30
+ 5.4.31
+ 5.4.32
+ 5.4.33
+ 5.4.34
+ 5.4.35
+ 5.4.36
+ 5.4.37
+ 5.4.38
+ 5.4.39
+ 5.4.4
+ 5.4.40
+ 5.4.41
+ 5.4.42
+ 5.4.5
+ 5.4.6
+ 5.4.7
+ 5.4.8
+ 5.4.9
+ 5.4snapshot
+ 5.5.0
+ 5.5.1
+ 5.5.10
+ 5.5.11
+ 5.5.12
+ 5.5.13
+ 5.5.14
+ 5.5.15
+ 5.5.16
+ 5.5.17
+ 5.5.18
+ 5.5.19
+ 5.5.2
+ 5.5.20
+ 5.5.21
+ 5.5.22
+ 5.5.23
+ 5.5.24
+ 5.5.25
+ 5.5.26
+ 5.5.3
+ 5.5.4
+ 5.5.5
+ 5.5.6
+ 5.5.7
+ 5.5.8
+ 5.5.9
+ 5.5snapshot
+ 5.6.0
+ 5.6.1
+ 5.6.10
+ 5.6.2
+ 5.6.3
+ 5.6.4
+ 5.6.5
+ 5.6.6
+ 5.6.7
+ 5.6.8
+ 5.6.9
+ 5.6snapshot
+ 7.0.0alpha1
+ master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;現時点で最新の5.6.9をインストールする。
+(configureはデフォルトにしておく)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ phpenv install 5.6.9
+[Info]: Loaded extension plugin
+[Info]: Loaded apc Plugin.
+[Info]: Loaded composer Plugin.
+[Info]: Loaded pyrus Plugin.
+[Info]: Loaded uprofiler Plugin.
+[Info]: Loaded xdebug Plugin.
+[Info]: Loaded xhprof Plugin.
+[Info]: php.ini-production gets used as php.ini
+[Info]: Building 5.6.9 into /home/vagrant/.phpenv/versions/5.6.9
+
+
+
+[Pyrus]: Downloading from http://pear2.php.net/pyrus.phar
+[Pyrus]: Installing executable in /home/vagrant/.phpenv/versions/5.6.9/bin/pyrus
+[xdebug]: Installing version 2.3.2
+[xdebug]: Compiling xdebug in /tmp/php-build/source/xdebug-2.3.2
+[xdebug]: Installing xdebug configuration in /home/vagrant/.phpenv/versions/5.6.9/etc/conf.d/xdebug.ini
+[xdebug]: Cleaning up.
+[Info]: Enabling Opcache...
+
+[Info]: The Log File is not empty, but the Build did not fail. Maybe just warnings got logged. You can review the log in /tmp/php-build.5.6.9.20150624001503.log
+[Success]: Built 5.6.9 successfully.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;インストール済みのphpバージョンを確認する&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ phpenv versions
+5.6.9
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;インストールしたPHPのバージョンを確認する&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ php -v
+rbenv: version `system&#39; is not installed
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;エラーが発生したが，下記コマンドを実行していなかったためなので実行する&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ phpenv global 5.6.9
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;再度確認する&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ php -v
+PHP 5.6.9 (cli) (built: Jun 24 2015 00:27:08)
+Copyright (c) 1997-2015 The PHP Group
+Zend Engine v2.6.0, Copyright (c) 1998-2015 Zend Technologies
+    with Zend OPcache v7.0.4-dev, Copyright (c) 1999-2015, by Zend Technologies
+    with Xdebug v2.3.2, Copyright (c) 2002-2015, by Derick Rethans
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;無事，PHPのインストールが完了しました ;-)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Vagrantのインストールメモ</title>
@@ -794,34 +1024,6 @@ title: 2014-Oct発売の技術書チェックリスト
 
 &lt;p&gt;291p.
 Google龍の働き方とマネジメントを参考にし，マネジメントに活かすために&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>reblog: 「良い上司」と、「ダメな上司」を見分ける基準６つ。 | Books&amp;amp;Apps</title>
-      <link>http://rockin.work/post/2014/12/reblog-6-books-apps/</link>
-      <pubDate>Sat, 11 Oct 2014 02:21:27 +0900</pubDate>
-      
-      <guid>http://rockin.work/post/2014/12/reblog-6-books-apps/</guid>
-      <description>&lt;!--
-id: 104852136011
-link: http://renoiv.tumblr.com/post/104852136011/6-books-apps
-slug: 6-books-apps
-date: Thu Dec 11 2014 02:21:27 GMT+0900 (JST)
-raw: {&#34;blog_name&#34;:&#34;renoiv&#34;,&#34;id&#34;:104852136011,&#34;post_url&#34;:&#34;http://renoiv.tumblr.com/post/104852136011/6-books-apps&#34;,&#34;slug&#34;:&#34;6-books-apps&#34;,&#34;type&#34;:&#34;link&#34;,&#34;date&#34;:&#34;2014-12-10 17:21:27 GMT&#34;,&#34;timestamp&#34;:1418232087,&#34;state&#34;:&#34;published&#34;,&#34;format&#34;:&#34;markdown&#34;,&#34;reblog_key&#34;:&#34;QpZzLicz&#34;,&#34;tags&#34;:[],&#34;short_url&#34;:&#34;http://tmblr.co/Z6KHMy1XfhA1B&#34;,&#34;highlighted&#34;:[],&#34;bookmarklet&#34;:true,&#34;note_count&#34;:0,&#34;title&#34;:&#34;「良い上司」と、「ダメな上司」を見分ける基準６つ。 | Books&amp;amp;Apps&#34;,&#34;url&#34;:&#34;http://blog.tinect.jp/?p=10135&#34;,&#34;description&#34;:&#34;&lt;p&gt;1.「良い上司」は、部下の得意なことについての自慢話が多い。「ダメな上司」は、部下の苦手なことについての愚痴が多い。\n2.「良い上司」は、機嫌が良さそうに働く。「ダメな上司」は、機嫌が悪そうに働く。\n3,「良い上司」は、「ウチの会社の魅力」をきちんと語ることができた。「ダメな上司」は、「ウチの会社の課題」しか語れなかった。\n4.「良い上司」は、謝れた。「ダメな上司」は、謝れなかった。\n5.「良い上司」は、「自分と違う考え方をする人」を重視した。「ダメな上司」は、「自分と同じ考え方の人」を重視した。\n6.「良い上司」は勉強した。「ダメな上司」は、過去の経験に頼っていた。&lt;/p&gt;&#34;}
-publish: 2014-12-011
-tags:
-title: 「良い上司」と、「ダメな上司」を見分ける基準６つ。 | Books&amp;amp;Apps
---&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.tinect.jp/?p=10135&#34;&gt;http://blog.tinect.jp/?p=10135&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;1.「良い上司」は、部下の得意なことについての自慢話が多い。「ダメな上司」は、部下の苦手なことについての愚痴が多い。
-2.「良い上司」は、機嫌が良さそうに働く。「ダメな上司」は、機嫌が悪そうに働く。
-3,「良い上司」は、「ウチの会社の魅力」をきちんと語ることができた。「ダメな上司」は、「ウチの会社の課題」しか語れなかった。
-4.「良い上司」は、謝れた。「ダメな上司」は、謝れなかった。
-5.「良い上司」は、「自分と違う考え方をする人」を重視した。「ダメな上司」は、「自分と同じ考え方の人」を重視した。
-6.「良い上司」は勉強した。「ダメな上司」は、過去の経験に頼っていた。&lt;/p&gt;
 </description>
     </item>
     
