@@ -58,6 +58,22 @@
                         <div class="li-article">
                             <article>
     <header>
+        <h2><a href="http://rockin.work/post/2015/07/vagrant-update/">Vagrantを1.7.2から1.7.4にupdate </a></h2>
+        <time class="li-article-date">Friday, July 31, 2015</time>
+    </header>
+    <section class="li-article-section">
+        使用環境 Mac OS X Yosemite 10.10.4 Vagrant 1.7.2 アップデート方法 https://www.vagrantup.com/downloads.html にアクセスしダウンロード 解凍してVagrant.pkgからインストール $ vagrant version Installed Version: 1.7.4 Latest Version: 1.7.4 You're running an up-to-date version of Vagrant!
+    </section>
+    <footer>
+        <a href='http://rockin.work/post/2015/07/vagrant-update/'>More</a>
+    </footer>
+</article>
+
+                        </div>
+                    
+                        <div class="li-article">
+                            <article>
+    <header>
         <h2><a href="http://rockin.work/post/2015/07/techbooks/">2015-July発売の技術書チェックリスト </a></h2>
         <time class="li-article-date">Tuesday, July 14, 2015</time>
     </header>
@@ -194,22 +210,6 @@
     </section>
     <footer>
         <a href='http://rockin.work/post/first/'>More</a>
-    </footer>
-</article>
-
-                        </div>
-                    
-                        <div class="li-article">
-                            <article>
-    <header>
-        <h2><a href="http://rockin.work/post/2015/01/resolved-cantaccess-https-localhost/">https://localhost/ にアクセス出来ない (解決) </a></h2>
-        <time class="li-article-date">Saturday, January 31, 2015</time>
-    </header>
-    <section class="li-article-section">
-        http://localhost/ には接続できるが，httpsには接続できない問題が発生。\n調査方法からメモしておく。 \n\n443ポートに接続できるかどうか\nsudo lsof -i tcp:80 -i tcp:443 | grep LISTEN \n\nファイアウォールが動いていないか\nシステム環境設定 &gt; セキュリティとプライバシー &gt; ファイアウォールを確認 \nhttpd.conf の設定が正しいか \nhttpd-ssl.conf の設定が正しいか\n$ sudo /usr/sbin/httpd -k start -e Debug -E /dev/stdout \n\nYosemiteでapache2のバージョンが上がったことで，今までの設定ファイルでは動かなかった模様。\nモジュールの読込が足りなかったことと，mutexの設定をコメントアウトして解決。 \n\n変更したファイル\n* /private/etc/apache2/httpd.conf\n* /private/etc/apache2/extra/httpd-ssl.conf "} publish: 2015-01-031 tags: apache2, yosemite title: https://localhost/ にアクセス出来ない (解決) -- http://localhost/ には接続できるが，https://localhost/ には接続できない問題が発生。 解決できたので調査方法からメモしておく。 443ポートに接続できるかどうか sudo lsof -i tcp:80 -i tcp:443 | grep LISTEN ファイアウォールが動いていないか システム環境設定 &gt; セキュリティとプライバシー &gt; ファイアウォールを確認 httpd.conf の設定が正しいか httpd-ssl.conf の設定が正しいか $ sudo /usr/sbin/httpd
-    </section>
-    <footer>
-        <a href='http://rockin.work/post/2015/01/resolved-cantaccess-https-localhost/'>More</a>
     </footer>
 </article>
 

@@ -6,8 +6,39 @@
     <description>Recent content in Memo on Rockin Work</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 30 Jun 2015 21:13:36 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2015 22:37:23 +0900</lastBuildDate>
     <atom:link href="http://rockin.work/tags/memo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Vagrantを1.7.2から1.7.4にupdate</title>
+      <link>http://rockin.work/post/2015/07/vagrant-update/</link>
+      <pubDate>Fri, 31 Jul 2015 22:37:23 +0900</pubDate>
+      
+      <guid>http://rockin.work/post/2015/07/vagrant-update/</guid>
+      <description>
+
+&lt;h3 id=&#34;使用環境:108f64569b34bd9370fa532fe60caddb&#34;&gt;使用環境&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mac OS X Yosemite 10.10.4&lt;/li&gt;
+&lt;li&gt;Vagrant 1.7.2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;アップデート方法:108f64569b34bd9370fa532fe60caddb&#34;&gt;アップデート方法&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.vagrantup.com/downloads.html&#34;&gt;https://www.vagrantup.com/downloads.html&lt;/a&gt; にアクセスしダウンロード&lt;/li&gt;
+&lt;li&gt;解凍してVagrant.pkgからインストール&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;$ vagrant version
+Installed Version: 1.7.4
+Latest Version: 1.7.4
+
+You&#39;re running an up-to-date version of Vagrant!
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>PHPのインストールメモ</title>
