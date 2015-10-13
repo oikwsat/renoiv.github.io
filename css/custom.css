@@ -27,3 +27,26 @@ iframe.hatena-bookmark-button-frame {
 .fb-like {
   line-height: 1;
 }
+
+table {
+  margin: 0 auto;
+  border: none;
+  border-collapse: separate;
+  border-spacing: 4px;
+  background: #fafafa;
+}
+
+table th {
+  border-bottom: solid 1px #666;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+  padding: 4px;
+}
+
+table tr td {
+  vertical-align: middle;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 2px;
+}
