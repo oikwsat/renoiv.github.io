@@ -46,7 +46,6 @@ table th {
 
 table tr td {
   vertical-align: middle;
-  white-space: nowrap;
   overflow: hidden;
   padding: 2px;
 }
