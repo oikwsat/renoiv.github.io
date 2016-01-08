@@ -6,8 +6,121 @@
     <description>Recent content on Rockin&#39; Work</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 01 Dec 2015 23:11:57 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 05 Jan 2016 14:00:14 +0900</lastBuildDate>
     <atom:link href="http://rockin.work/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2015年に使ったタスク管理ツールまとめ</title>
+      <link>http://rockin.work/post/2016/01/task-management-tools/</link>
+      <pubDate>Tue, 05 Jan 2016 14:00:14 +0900</pubDate>
+      
+      <guid>http://rockin.work/post/2016/01/task-management-tools/</guid>
+      <description>
+
+&lt;p&gt;2016年あけましておめでとうございます。&lt;br&gt;
+新年ということで今まで使ってきたタスク管理ツールを比較・ふりかえり，
+タイムマネジメントを見直していきたいと思います。&lt;/p&gt;
+
+&lt;h2 id=&#34;1-any-do:86a3accdf99ae5d70316c38c7b481cce&#34;&gt;1. Any.do&lt;/h2&gt;
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://rockin.work/media/2016/anydo.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Any.do - web&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;プライペート用に1年近く，iPhone/Androidアプリで使ってきました。&lt;br&gt;
+UIがかっこいいという理由から使い始めたのですが，プライベート用ということもあり惰性で使っていただけで，使いこなすに至りませんでした。&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;2-doit-im:86a3accdf99ae5d70316c38c7b481cce&#34;&gt;2. Doit.im&lt;/h2&gt;
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://rockin.work/media/2016/doitim.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Doit.im - web&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;仕事用に，Mac版アプリで1年ほど使いました。&lt;br&gt;
+マネジメント業務が多くなり，差し込みも多くなってきてタスクを落としがちだったということで導入。&lt;br&gt;
+無料版だと同期が1回/日しかできない＆Mac版アプリが提供されないので有料版で使ってましたが，同僚とのタスク共有をやりたかった関係でTodoistへ移行。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;UIが若干ビジネス寄りではありますが，繰り返しタスクを柔軟に設定できるし有料版も$2/月と安く，かなり使いやすいです。&lt;br&gt;
+特徴的だなと思った機能はゴールです。有料版のみですが，タスクを何の目的なのかというゴール単位でまとめることが可能です。&lt;/p&gt;
+
+&lt;h2 id=&#34;3-todoist:86a3accdf99ae5d70316c38c7b481cce&#34;&gt;3. Todoist&lt;/h2&gt;
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://rockin.work/media/2016/todoist.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Todoist - web&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;仕事用に，Mac版アプリで4ヶ月ほど使いました。&lt;br&gt;
+無料版で十分使えましたが，繰り返しタスクの設定方法が分からずストレスを感じてました。(最近ようやく設定方法が分かりました。。)&lt;br&gt;
+面白いと思ったのはカルマという機能で，タスクを完了したりすることでカルマが貯まっていきます。&lt;br&gt;
+モチベーションを維持しやすくするためのしくみが有り，継続しやすいと感じました。&lt;/p&gt;
+
+&lt;h2 id=&#34;4-wunderlist:86a3accdf99ae5d70316c38c7b481cce&#34;&gt;4. Wunderlist&lt;/h2&gt;
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://rockin.work/media/2016/wunderlist.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Wunderlist - web&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;2016年になり，プライペートも疎かにしたくないと思い，仕事とプライベートのタスク管理ツールの統合を図りたいと思いました。&lt;br&gt;
+Todoistが辛くなってきたこともあり，UIがいけてる &amp;amp; 無料で充分使えそうと前から気になっていたWunderlistに移行してみます。&lt;/p&gt;
+
+&lt;p&gt;Android + Macのアプリで使って一週間くらい経ちましたが概ね良い感じですが，&lt;br&gt;
+何点か不便に感じ始めてます。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;タスクのソートが手動なのが不便 (慣れの問題？)&lt;/li&gt;
+&lt;li&gt;期限日の指定が 今日・明日・日付指定 のみで，来週がないのが不便&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ある程度は慣れで解消していくと思っているので，タスクマネジメントツール探しの旅にそろそろ終わりを告げたいところです。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.any.do/&#34;&gt;Any.do&lt;/a&gt; : 2013 - 2015&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://doit.im/&#34;&gt;Doit.im&lt;/a&gt; : &lt;sup&gt;2014&lt;/sup&gt;&amp;frasl;&lt;sub&gt;07&lt;/sub&gt; - &lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;07&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://todoist.com/&#34;&gt;Todoist&lt;/a&gt; : &lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;08&lt;/sub&gt; - &lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;12&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wunderlist.com&#34;&gt;Wunderlist&lt;/a&gt; : &lt;sup&gt;2016&lt;/sup&gt;&amp;frasl;&lt;sub&gt;01&lt;/sub&gt; -&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>2015-Sep,Oct,Nov,Dec発売の技術書チェックリスト</title>
@@ -1230,51 +1343,6 @@ _イタリック_
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>https://localhost/ にアクセス出来ない (解決)</title>
-      <link>http://rockin.work/post/2015/01/resolved-cantaccess-https-localhost/</link>
-      <pubDate>Sat, 31 Jan 2015 16:18:00 +0900</pubDate>
-      
-      <guid>http://rockin.work/post/2015/01/resolved-cantaccess-https-localhost/</guid>
-      <description>&lt;!--
-id: 109653526371
-link: http://renoiv.tumblr.com/post/109653526371/https-localhost
-slug: https-localhost
-date: Sat Jan 31 2015 16:18:00 GMT+0900 (JST)
-raw: {&#34;blog_name&#34;:&#34;renoiv&#34;,&#34;id&#34;:109653526371,&#34;post_url&#34;:&#34;http://renoiv.tumblr.com/post/109653526371/https-localhost&#34;,&#34;slug&#34;:&#34;https-localhost&#34;,&#34;type&#34;:&#34;text&#34;,&#34;date&#34;:&#34;2015-01-31 07:18:00 GMT&#34;,&#34;timestamp&#34;:1422688680,&#34;state&#34;:&#34;published&#34;,&#34;format&#34;:&#34;markdown&#34;,&#34;reblog_key&#34;:&#34;FIyEyAe1&#34;,&#34;tags&#34;:[&#34;apache2&#34;,&#34;yosemite&#34;],&#34;short_url&#34;:&#34;http://tmblr.co/Z6KHMy1c7t0TZ&#34;,&#34;highlighted&#34;:[],&#34;note_count&#34;:0,&#34;title&#34;:&#34;https://localhost/ にアクセス出来ない (解決)&#34;,&#34;body&#34;:&#34;&lt;p&gt;http://localhost/ には接続できるが，httpsには接続できない問題が発生。\n調査方法からメモしておく。&lt;/p&gt;\n\n&lt;ul&gt;&lt;li&gt;443ポートに接続できるかどうか&lt;/li&gt;\n&lt;/ul&gt;&lt;p&gt;&lt;code&gt;sudo lsof -i tcp:80 -i tcp:443  | grep LISTEN&lt;/code&gt;&lt;/p&gt;\n\n&lt;ul&gt;&lt;li&gt;&lt;p&gt;ファイアウォールが動いていないか\nシステム環境設定 &amp;gt; セキュリティとプライバシー &amp;gt; ファイアウォールを確認&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;httpd.conf の設定が正しいか&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;httpd-ssl.conf の設定が正しいか&lt;/li&gt;\n&lt;/ul&gt;&lt;p&gt;&lt;code&gt;$ sudo /usr/sbin/httpd -k start -e Debug -E /dev/stdout&lt;/code&gt;&lt;/p&gt;\n\n&lt;p&gt;Yosemiteでapache2のバージョンが上がったことで，今までの設定ファイルでは動かなかった模様。\nモジュールの読込が足りなかったことと，mutexの設定をコメントアウトして解決。&lt;/p&gt;\n\n&lt;p&gt;変更したファイル\n* /private/etc/apache2/httpd.conf\n* /private/etc/apache2/extra/httpd-ssl.conf&lt;/p&gt;&#34;}
-publish: 2015-01-031
-tags: apache2, yosemite
-title: https://localhost/ にアクセス出来ない (解決)
---&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://localhost/&#34;&gt;http://localhost/&lt;/a&gt; には接続できるが，&lt;a href=&#34;https://localhost/&#34;&gt;https://localhost/&lt;/a&gt; には接続できない問題が発生。
-解決できたので調査方法からメモしておく。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;443ポートに接続できるかどうか&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code&gt;sudo lsof -i tcp:80 -i tcp:443  | grep LISTEN&lt;/code&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;ファイアウォールが動いていないか システム環境設定 &amp;gt;
-セキュリティとプライバシー &amp;gt; ファイアウォールを確認&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;httpd.conf の設定が正しいか&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;httpd-ssl.conf の設定が正しいか&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code&gt;$ sudo /usr/sbin/httpd -k start -e Debug -E /dev/stdout&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Yosemiteでapache2のバージョンが上がったことで，今までの設定ファイルでは動かなかった模様。
-モジュールの読込が足りなかったことと，mutexの設定をコメントアウトして解決。&lt;/p&gt;
-
-&lt;p&gt;変更したファイル * /private/etc/apache2/httpd.conf *
-/private/etc/apache2/extra/httpd-ssl.conf&lt;/p&gt;
 </description>
     </item>
     

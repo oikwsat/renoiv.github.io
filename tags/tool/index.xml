@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tool on Rockin&#39; Work</title>
+    <link>http://rockin.work/tags/tool/</link>
+    <description>Recent content in Tool on Rockin&#39; Work</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 05 Jan 2016 14:00:14 +0900</lastBuildDate>
+    <atom:link href="http://rockin.work/tags/tool/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2015年に使ったタスク管理ツールまとめ</title>
+      <link>http://rockin.work/post/2016/01/task-management-tools/</link>
+      <pubDate>Tue, 05 Jan 2016 14:00:14 +0900</pubDate>
+      
+      <guid>http://rockin.work/post/2016/01/task-management-tools/</guid>
+      <description>
+
+&lt;p&gt;2016年あけましておめでとうございます。&lt;br&gt;
+新年ということで今まで使ってきたタスク管理ツールを比較・ふりかえり，
+タイムマネジメントを見直していきたいと思います。&lt;/p&gt;
+
+&lt;h2 id=&#34;1-any-do:86a3accdf99ae5d70316c38c7b481cce&#34;&gt;1. Any.do&lt;/h2&gt;
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://rockin.work/media/2016/anydo.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Any.do - web&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;プライペート用に1年近く，iPhone/Androidアプリで使ってきました。&lt;br&gt;
+UIがかっこいいという理由から使い始めたのですが，プライベート用ということもあり惰性で使っていただけで，使いこなすに至りませんでした。&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;2-doit-im:86a3accdf99ae5d70316c38c7b481cce&#34;&gt;2. Doit.im&lt;/h2&gt;
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://rockin.work/media/2016/doitim.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Doit.im - web&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;仕事用に，Mac版アプリで1年ほど使いました。&lt;br&gt;
+マネジメント業務が多くなり，差し込みも多くなってきてタスクを落としがちだったということで導入。&lt;br&gt;
+無料版だと同期が1回/日しかできない＆Mac版アプリが提供されないので有料版で使ってましたが，同僚とのタスク共有をやりたかった関係でTodoistへ移行。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;UIが若干ビジネス寄りではありますが，繰り返しタスクを柔軟に設定できるし有料版も$2/月と安く，かなり使いやすいです。&lt;br&gt;
+特徴的だなと思った機能はゴールです。有料版のみですが，タスクを何の目的なのかというゴール単位でまとめることが可能です。&lt;/p&gt;
+
+&lt;h2 id=&#34;3-todoist:86a3accdf99ae5d70316c38c7b481cce&#34;&gt;3. Todoist&lt;/h2&gt;
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://rockin.work/media/2016/todoist.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Todoist - web&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;仕事用に，Mac版アプリで4ヶ月ほど使いました。&lt;br&gt;
+無料版で十分使えましたが，繰り返しタスクの設定方法が分からずストレスを感じてました。(最近ようやく設定方法が分かりました。。)&lt;br&gt;
+面白いと思ったのはカルマという機能で，タスクを完了したりすることでカルマが貯まっていきます。&lt;br&gt;
+モチベーションを維持しやすくするためのしくみが有り，継続しやすいと感じました。&lt;/p&gt;
+
+&lt;h2 id=&#34;4-wunderlist:86a3accdf99ae5d70316c38c7b481cce&#34;&gt;4. Wunderlist&lt;/h2&gt;
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://rockin.work/media/2016/wunderlist.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Wunderlist - web&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;2016年になり，プライペートも疎かにしたくないと思い，仕事とプライベートのタスク管理ツールの統合を図りたいと思いました。&lt;br&gt;
+Todoistが辛くなってきたこともあり，UIがいけてる &amp;amp; 無料で充分使えそうと前から気になっていたWunderlistに移行してみます。&lt;/p&gt;
+
+&lt;p&gt;Android + Macのアプリで使って一週間くらい経ちましたが概ね良い感じですが，&lt;br&gt;
+何点か不便に感じ始めてます。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;タスクのソートが手動なのが不便 (慣れの問題？)&lt;/li&gt;
+&lt;li&gt;期限日の指定が 今日・明日・日付指定 のみで，来週がないのが不便&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ある程度は慣れで解消していくと思っているので，タスクマネジメントツール探しの旅にそろそろ終わりを告げたいところです。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.any.do/&#34;&gt;Any.do&lt;/a&gt; : 2013 - 2015&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://doit.im/&#34;&gt;Doit.im&lt;/a&gt; : &lt;sup&gt;2014&lt;/sup&gt;&amp;frasl;&lt;sub&gt;07&lt;/sub&gt; - &lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;07&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://todoist.com/&#34;&gt;Todoist&lt;/a&gt; : &lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;08&lt;/sub&gt; - &lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;12&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wunderlist.com&#34;&gt;Wunderlist&lt;/a&gt; : &lt;sup&gt;2016&lt;/sup&gt;&amp;frasl;&lt;sub&gt;01&lt;/sub&gt; -&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
