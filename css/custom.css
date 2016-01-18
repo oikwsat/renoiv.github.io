@@ -53,3 +53,8 @@ table tr td {
 .li-article-section {
   word-break: break-all;
 }
+
+figure img {
+  max-width: 100%;
+}
+
