@@ -62,6 +62,22 @@
                         <div class="li-article">
                             <article>
     <header>
+        <h2><a href="http://rockin.work/post/2016/02/vagrant-update/">Vagrantを1.7.4から1.8.1にupdate </a></h2>
+        <time class="li-article-date">Monday, February 8, 2016</time>
+    </header>
+    <section class="li-article-section">
+        使用環境 Mac OS X Yosemite 10.10.5 Vagrant 1.7.4 アップデート方法 https://www.vagrantup.com/downloads.html にアクセスしダウンロード 解凍してVagrant.pkgからインストール $ vagrant -v Vagrant 1.8.1
+    </section>
+    <footer>
+        <a href='http://rockin.work/post/2016/02/vagrant-update/'>More</a>
+    </footer>
+</article>
+
+                        </div>
+                    
+                        <div class="li-article">
+                            <article>
+    <header>
         <h2><a href="http://rockin.work/post/2016/01/task-management-tools/">2015年に使ったタスク管理ツールまとめ </a></h2>
         <time class="li-article-date">Tuesday, January 5, 2016</time>
     </header>
@@ -198,22 +214,6 @@
     </section>
     <footer>
         <a href='http://rockin.work/post/2015/06/php-install/'>More</a>
-    </footer>
-</article>
-
-                        </div>
-                    
-                        <div class="li-article">
-                            <article>
-    <header>
-        <h2><a href="http://rockin.work/post/2015/06/vagrant-install/">Vagrantのインストールメモ </a></h2>
-        <time class="li-article-date">Sunday, June 21, 2015</time>
-    </header>
-    <section class="li-article-section">
-        インストール前に古いVagrantがインストール済みだったのでアンインストール $ sudo rm -rf /Applications/Vagrant $ sudo rm -rf /usr/bin/vagrant $ sudo pkgutil --forget com.vagrant.vagrant インストーラでインストール後バージョン確認 $ vagrant --version Vagrant 1.7.2 http://www.vagrantbox.es/ でcentos6.5を取得 $ vagrant box add centos65 \ https://github.com/2creatives/vagrant-centos/releases/download/v6.5.3/centos65-x86_64-20140116.box box add時にエラー発生 Vagrant failed to initialize at a very early stage: The home directory you specified is not accessible. The home directory that Vagrant uses must be both readable and writable. You specified: $HOME/.vagrant.d 以前にインストールした時の残骸なのでフォルダごと削除する $ rm -rf ~/.vagrant.d/ 再度boxを追加 $ vagrant box add centos65 https://github.com/2creatives/vagrant-centos/releases/download/v6.5.3/centos65-x86_64-20140116.box ==&gt; box: Adding box 'centos65' (v0) for provider: box: Downloading: https://github.com/2creatives/vagrant-centos/releases/download/v6.5.3/centos65-x86_64-20140116.box ==&gt; box: Successfully added box 'centos65' (v0) for 'virtualbox'!
-    </section>
-    <footer>
-        <a href='http://rockin.work/post/2015/06/vagrant-install/'>More</a>
     </footer>
 </article>
 

@@ -6,8 +6,36 @@
     <description>Recent content in Develop on Rockin&#39; Work</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 31 Jul 2015 22:37:23 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 08 Feb 2016 22:10:46 +0900</lastBuildDate>
     <atom:link href="http://rockin.work/categories/develop/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Vagrantを1.7.4から1.8.1にupdate</title>
+      <link>http://rockin.work/post/2016/02/vagrant-update/</link>
+      <pubDate>Mon, 08 Feb 2016 22:10:46 +0900</pubDate>
+      
+      <guid>http://rockin.work/post/2016/02/vagrant-update/</guid>
+      <description>
+
+&lt;h3 id=&#34;使用環境:108f64569b34bd9370fa532fe60caddb&#34;&gt;使用環境&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mac OS X Yosemite 10.10.5&lt;/li&gt;
+&lt;li&gt;Vagrant 1.7.4&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;アップデート方法:108f64569b34bd9370fa532fe60caddb&#34;&gt;アップデート方法&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.vagrantup.com/downloads.html&#34;&gt;https://www.vagrantup.com/downloads.html&lt;/a&gt; にアクセスしダウンロード&lt;/li&gt;
+&lt;li&gt;解凍してVagrant.pkgからインストール&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;$ vagrant -v
+Vagrant 1.8.1
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Vagrantを1.7.2から1.7.4にupdate</title>
